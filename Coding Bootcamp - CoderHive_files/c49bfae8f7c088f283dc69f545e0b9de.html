@@ -1,0 +1,4239 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://forms.monday.com/forms/embed/c49bfae8f7c088f283dc69f545e0b9de -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" ng-app="pulse"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Apply Now</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="./css" rel="stylesheet" type="text/css">
+
+  <script>
+    window.form_data = {"token":"c49bfae8f7c088f283dc69f545e0b9de","included_columns":[{"id":"name","title":"Name","type":"name","width":295},{"type":"phone","title":"Phone","id":"phone","width":159},{"title":"Email","type":"text","id":"text5","width":206},{"title":"Occupation","type":"text","id":"text31"},{"title":"Qualification","type":"dropdown","id":"qualification","settings":{"labels":[{"name":"B. Tech. (ECE)","id":7},{"id":9,"name":"B. Tech (EEE)"},{"id":10,"name":"B. Tech (CSE)"},{"id":11,"name":"B. Tech. (Mech)"},{"id":12,"name":"B. Tech. (Civil)"},{"id":13,"name":"B. Com (Computers)"},{"id":14,"name":"M.C.A"},{"id":15,"name":"M.B.A"},{"id":16,"name":"B.Sc. (CS)"}]}},{"title":"Pass Out Year","type":"text","id":"text2"},{"title":"Address","type":"long-text","id":"address"},{"type":"text","title":"Anything you want","id":"text7"}],"board_view_settings":{"columns":{"name":{"visible":true,"question":"Your full name","mandatory":true},"status":{"visible":false,"question":"Contacted"},"status6":{"visible":false,"question":"Proposal"},"status0":{"visible":false,"question":"Contract"},"status8":{"visible":false,"question":"Payment"},"phone":{"visible":true,"question":"Your phone number","mandatory":true},"text5":{"visible":true,"question":"Your email address","mandatory":true},"qualification":{"visible":true,"question":"What is your highest educational qualification?"},"text31":{"visible":true,"question":"What is your current Occupation?"},"text2":{"visible":true,"question":"What is your highest educational qualification pass out year?","description":""},"address":{"visible":true,"question":"Your communication address?"},"text13":{"visible":false,"question":"When can you start the program?"},"text23":{"visible":true,"question":"How would you like to do this program?"},"commitment":{"visible":false,"question":"Do you want to do this part time or full time?"},"can_start":{"visible":false,"question":"When do you want to start?"},"mode":{"visible":false,"question":"How do you want to do this program?","description":""},"text7":{"visible":true,"question":"Anything you want to ask?"}},"formTitle":"Apply Now","formLogoPath":null,"headerColor":"#082671","success_title":"Thanks for applying.","success_content":"We will get back to you soon. ","success_redirect":"","group_id":"new_group","submit_another":"auto"}};
+    window.Pulse = {}
+    window.Pulse.Apps = {}
+    window.Pulse.Apps.PulseBoard = {}
+
+    var getDomainFromParent = function(event) {
+      var httpIndex = event.origin.search("//");
+      var eventurl = event.origin;
+      if (httpIndex > -1)
+      {
+        var eventurl = eventurl.slice(httpIndex + 2);
+      }
+
+      var originArr = eventurl.split(".");
+      if (originArr.length > 2) {
+         originArr.shift();
+      }
+      return originArr.join(".");
+    }
+
+    var isMondayDomain = function(domain) {
+      return domain == "monday.com";
+    }
+
+    window.addEventListener('message', function(event) {
+      var domain = getDomainFromParent(event);
+      if(isMondayDomain(domain) && event.data.formIframe) {
+        window.Pulse.FormConsumerData = window.Pulse.FormConsumerData || {}
+        window.Pulse.FormConsumerData.upgrade_feedback_data = event.data.formData
+      }
+    });
+
+    window.formBBData = {
+      board_id: 230960961,
+      direct_object: "board_view",
+      direct_object_id: 2695409,
+      info2: "c49bfae8f7c088f283dc69f545e0b9de"
+    }
+
+      window.formBBData.placement = "embedded"
+
+  </script>
+
+  <script type="text/javascript">
+  window.Pulse = window.Pulse || {};
+  window.Pulse.image_path      = function(path) { return base_path("images", path) };
+  window.Pulse.font_path       = function(path) { return base_path("fonts", path) };
+  window.Pulse.lib_path        = function(path) { return base_path("lib", path) };
+  window.Pulse.icon_path       = function(path) { return base_path("icons", path) };
+  window.Pulse.forms_icon_path = function(path) { return base_path("forms_icons", path) };
+
+  const base_path = function(root_dir, path) {
+    return ("https://cdn7.monday.com/" + root_dir + "/" + path.replace(/^\//,''));
+  };
+</script>
+
+  <style type="text/css" media="all">	
+    /* !important is required so the background will have an effect when printing */
+    .status-color-orange {
+      background-color: #fdab3d !important;
+      border-bottom-color: #E99729;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-orange .menu-dog-ear-color {
+      color: #fdab3d;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-green-shadow {
+      background-color: #00c875 !important;
+      border-bottom-color: #00B461;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-green-shadow .menu-dog-ear-color {
+      color: #00c875;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-red-shadow {
+      background-color: #e2445c !important;
+      border-bottom-color: #CE3048;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-red-shadow .menu-dog-ear-color {
+      color: #e2445c;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-blue-links {
+      background-color: #0086c0 !important;
+      border-bottom-color: #3DB0DF;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-blue-links .menu-dog-ear-color {
+      color: #0086c0;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-bright-blue {
+      background-color: #579bfc !important;
+      border-bottom-color: #4387E8;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-bright-blue .menu-dog-ear-color {
+      color: #579bfc;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-purple {
+      background-color: #a25ddc !important;
+      border-bottom-color: #9238AF;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-purple .menu-dog-ear-color {
+      color: #a25ddc;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-grass-green {
+      background-color: #037f4c !important;
+      border-bottom-color: #006B38;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-grass-green .menu-dog-ear-color {
+      color: #037f4c;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-mustered {
+      background-color: #CAB641 !important;
+      border-bottom-color: #C0AB31;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-mustered .menu-dog-ear-color {
+      color: #CAB641;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-yellow {
+      background-color: #FFCB00 !important;
+      border-bottom-color: #C0AB1B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-yellow .menu-dog-ear-color {
+      color: #FFCB00;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-soft-black {
+      background-color: #333333 !important;
+      border-bottom-color: #000;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-soft-black .menu-dog-ear-color {
+      color: #333333;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-grey {
+      background-color: #c4c4c4 !important;
+      border-bottom-color: #B0B0B0;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-grey .menu-dog-ear-color {
+      color: #c4c4c4;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-dark-red {
+      background-color: #BB3354 !important;
+      border-bottom-color: #A42D4A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-dark-red .menu-dog-ear-color {
+      color: #BB3354;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-dark-pink {
+      background-color: #FF158A !important;
+      border-bottom-color: #E01279;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-dark-pink .menu-dog-ear-color {
+      color: #FF158A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-light-pink {
+      background-color: #FF5AC4 !important;
+      border-bottom-color: #E04FAC;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-light-pink .menu-dog-ear-color {
+      color: #FF5AC4;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-dark-purple {
+      background-color: #784BD1 !important;
+      border-bottom-color: #8F4DC4;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-dark-purple .menu-dog-ear-color {
+      color: #784BD1;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-lime-green {
+      background-color: #9CD326 !important;
+      border-bottom-color: #89B921;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-lime-green .menu-dog-ear-color {
+      color: #9CD326;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-turquoise {
+      background-color: #66CCFF !important;
+      border-bottom-color: #5AB3E0;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-turquoise .menu-dog-ear-color {
+      color: #66CCFF;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-trolley-grey {
+      background-color: #808080 !important;
+      border-bottom-color: #707070;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-trolley-grey .menu-dog-ear-color {
+      color: #808080;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-brown {
+      background-color: #7F5347 !important;
+      border-bottom-color: #70493E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-brown .menu-dog-ear-color {
+      color: #7F5347;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-dark-orange {
+      background-color: #FF642E !important;
+      border-bottom-color: #E05828;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-dark-orange .menu-dog-ear-color {
+      color: #FF642E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color201 {
+      background-color: #AC9B3B !important;
+      border-bottom-color: #AC9B3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color201 .menu-dog-ear-color {
+      color: #AC9B3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color202 {
+      background-color: #B02B58 !important;
+      border-bottom-color: #B02B58;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color202 .menu-dog-ear-color {
+      color: #B02B58;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color203 {
+      background-color: #B43685 !important;
+      border-bottom-color: #B43685;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color203 .menu-dog-ear-color {
+      color: #B43685;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color204 {
+      background-color: #CF701F !important;
+      border-bottom-color: #CF701F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color204 .menu-dog-ear-color {
+      color: #CF701F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color205 {
+      background-color: #709D36 !important;
+      border-bottom-color: #709D36;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color205 .menu-dog-ear-color {
+      color: #709D36;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color206 {
+      background-color: #222D75 !important;
+      border-bottom-color: #222D75;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color206 .menu-dog-ear-color {
+      color: #222D75;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color207 {
+      background-color: #7BB62D !important;
+      border-bottom-color: #7BB62D;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color207 .menu-dog-ear-color {
+      color: #7BB62D;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color208 {
+      background-color: #703A8C !important;
+      border-bottom-color: #703A8C;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color208 .menu-dog-ear-color {
+      color: #703A8C;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color209 {
+      background-color: #7F2443 !important;
+      border-bottom-color: #7F2443;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color209 .menu-dog-ear-color {
+      color: #7F2443;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color210 {
+      background-color: #D8331E !important;
+      border-bottom-color: #D8331E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color210 .menu-dog-ear-color {
+      color: #D8331E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color211 {
+      background-color: #8F1680 !important;
+      border-bottom-color: #8F1680;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color211 .menu-dog-ear-color {
+      color: #8F1680;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color212 {
+      background-color: #868808 !important;
+      border-bottom-color: #868808;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color212 .menu-dog-ear-color {
+      color: #868808;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color213 {
+      background-color: #19A322 !important;
+      border-bottom-color: #19A322;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color213 .menu-dog-ear-color {
+      color: #19A322;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color214 {
+      background-color: #D68857 !important;
+      border-bottom-color: #D68857;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color214 .menu-dog-ear-color {
+      color: #D68857;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color215 {
+      background-color: #B24394 !important;
+      border-bottom-color: #B24394;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color215 .menu-dog-ear-color {
+      color: #B24394;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color216 {
+      background-color: #AC7C3B !important;
+      border-bottom-color: #AC7C3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color216 .menu-dog-ear-color {
+      color: #AC7C3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color217 {
+      background-color: #297754 !important;
+      border-bottom-color: #297754;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color217 .menu-dog-ear-color {
+      color: #297754;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color218 {
+      background-color: #6F311A !important;
+      border-bottom-color: #6F311A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color218 .menu-dog-ear-color {
+      color: #6F311A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color219 {
+      background-color: #AC413B !important;
+      border-bottom-color: #AC413B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color219 .menu-dog-ear-color {
+      color: #AC413B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color220 {
+      background-color: #C87031 !important;
+      border-bottom-color: #C87031;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color220 .menu-dog-ear-color {
+      color: #C87031;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color221 {
+      background-color: #A4C61E !important;
+      border-bottom-color: #A4C61E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color221 .menu-dog-ear-color {
+      color: #A4C61E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color222 {
+      background-color: #9D5921 !important;
+      border-bottom-color: #9D5921;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color222 .menu-dog-ear-color {
+      color: #9D5921;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color223 {
+      background-color: #1E7579 !important;
+      border-bottom-color: #1E7579;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color223 .menu-dog-ear-color {
+      color: #1E7579;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color224 {
+      background-color: #266F5F !important;
+      border-bottom-color: #266F5F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color224 .menu-dog-ear-color {
+      color: #266F5F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color225 {
+      background-color: #69BA1C !important;
+      border-bottom-color: #69BA1C;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color225 .menu-dog-ear-color {
+      color: #69BA1C;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color226 {
+      background-color: #256C62 !important;
+      border-bottom-color: #256C62;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color226 .menu-dog-ear-color {
+      color: #256C62;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color227 {
+      background-color: #AB831F !important;
+      border-bottom-color: #AB831F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color227 .menu-dog-ear-color {
+      color: #AB831F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color228 {
+      background-color: #80A21D !important;
+      border-bottom-color: #80A21D;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color228 .menu-dog-ear-color {
+      color: #80A21D;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color229 {
+      background-color: #2A526F !important;
+      border-bottom-color: #2A526F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color229 .menu-dog-ear-color {
+      color: #2A526F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color230 {
+      background-color: #77296E !important;
+      border-bottom-color: #77296E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color230 .menu-dog-ear-color {
+      color: #77296E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color231 {
+      background-color: #ABD841 !important;
+      border-bottom-color: #ABD841;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color231 .menu-dog-ear-color {
+      color: #ABD841;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color232 {
+      background-color: #1B5C8B !important;
+      border-bottom-color: #1B5C8B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color232 .menu-dog-ear-color {
+      color: #1B5C8B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color233 {
+      background-color: #1A5A51 !important;
+      border-bottom-color: #1A5A51;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color233 .menu-dog-ear-color {
+      color: #1A5A51;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color234 {
+      background-color: #EFC55A !important;
+      border-bottom-color: #EFC55A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color234 .menu-dog-ear-color {
+      color: #EFC55A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color235 {
+      background-color: #AC843B !important;
+      border-bottom-color: #AC843B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color235 .menu-dog-ear-color {
+      color: #AC843B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color236 {
+      background-color: #D6A057 !important;
+      border-bottom-color: #D6A057;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color236 .menu-dog-ear-color {
+      color: #D6A057;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color237 {
+      background-color: #5C8008 !important;
+      border-bottom-color: #5C8008;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color237 .menu-dog-ear-color {
+      color: #5C8008;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color238 {
+      background-color: #887408 !important;
+      border-bottom-color: #887408;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color238 .menu-dog-ear-color {
+      color: #887408;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color239 {
+      background-color: #23904F !important;
+      border-bottom-color: #23904F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color239 .menu-dog-ear-color {
+      color: #23904F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color240 {
+      background-color: #AC6E3B !important;
+      border-bottom-color: #AC6E3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color240 .menu-dog-ear-color {
+      color: #AC6E3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color241 {
+      background-color: #5F1635 !important;
+      border-bottom-color: #5F1635;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color241 .menu-dog-ear-color {
+      color: #5F1635;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color242 {
+      background-color: #307E7E !important;
+      border-bottom-color: #307E7E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color242 .menu-dog-ear-color {
+      color: #307E7E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color243 {
+      background-color: #AAAC3B !important;
+      border-bottom-color: #AAAC3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color243 .menu-dog-ear-color {
+      color: #AAAC3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color244 {
+      background-color: #6F3D1A !important;
+      border-bottom-color: #6F3D1A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color244 .menu-dog-ear-color {
+      color: #6F3D1A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color245 {
+      background-color: #155C5F !important;
+      border-bottom-color: #155C5F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color245 .menu-dog-ear-color {
+      color: #155C5F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color246 {
+      background-color: #148273 !important;
+      border-bottom-color: #148273;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color246 .menu-dog-ear-color {
+      color: #148273;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color247 {
+      background-color: #145324 !important;
+      border-bottom-color: #145324;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color247 .menu-dog-ear-color {
+      color: #145324;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color248 {
+      background-color: #228A5B !important;
+      border-bottom-color: #228A5B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color248 .menu-dog-ear-color {
+      color: #228A5B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color249 {
+      background-color: #3D5A8B !important;
+      border-bottom-color: #3D5A8B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color249 .menu-dog-ear-color {
+      color: #3D5A8B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color250 {
+      background-color: #6F1C1A !important;
+      border-bottom-color: #6F1C1A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color250 .menu-dog-ear-color {
+      color: #6F1C1A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color251 {
+      background-color: #333C76 !important;
+      border-bottom-color: #333C76;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color251 .menu-dog-ear-color {
+      color: #333C76;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color252 {
+      background-color: #D15650 !important;
+      border-bottom-color: #D15650;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color252 .menu-dog-ear-color {
+      color: #D15650;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color253 {
+      background-color: #6F411A !important;
+      border-bottom-color: #6F411A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color253 .menu-dog-ear-color {
+      color: #6F411A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color254 {
+      background-color: #6A0645 !important;
+      border-bottom-color: #6A0645;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color254 .menu-dog-ear-color {
+      color: #6A0645;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color255 {
+      background-color: #388A78 !important;
+      border-bottom-color: #388A78;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color255 .menu-dog-ear-color {
+      color: #388A78;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color256 {
+      background-color: #1F6B33 !important;
+      border-bottom-color: #1F6B33;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color256 .menu-dog-ear-color {
+      color: #1F6B33;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color257 {
+      background-color: #AC663B !important;
+      border-bottom-color: #AC663B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color257 .menu-dog-ear-color {
+      color: #AC663B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color258 {
+      background-color: #880E08 !important;
+      border-bottom-color: #880E08;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color258 .menu-dog-ear-color {
+      color: #880E08;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color259 {
+      background-color: #6EB32C !important;
+      border-bottom-color: #6EB32C;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color259 .menu-dog-ear-color {
+      color: #6EB32C;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color260 {
+      background-color: #759D00 !important;
+      border-bottom-color: #759D00;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color260 .menu-dog-ear-color {
+      color: #759D00;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color261 {
+      background-color: #D1BD50 !important;
+      border-bottom-color: #D1BD50;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color261 .menu-dog-ear-color {
+      color: #D1BD50;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color262 {
+      background-color: #475193 !important;
+      border-bottom-color: #475193;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color262 .menu-dog-ear-color {
+      color: #475193;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color263 {
+      background-color: #884208 !important;
+      border-bottom-color: #884208;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color263 .menu-dog-ear-color {
+      color: #884208;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color264 {
+      background-color: #906329 !important;
+      border-bottom-color: #906329;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color264 .menu-dog-ear-color {
+      color: #906329;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color265 {
+      background-color: #C87731 !important;
+      border-bottom-color: #C87731;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color265 .menu-dog-ear-color {
+      color: #C87731;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color266 {
+      background-color: #2C8142 !important;
+      border-bottom-color: #2C8142;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color266 .menu-dog-ear-color {
+      color: #2C8142;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color267 {
+      background-color: #A65F00 !important;
+      border-bottom-color: #A65F00;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color267 .menu-dog-ear-color {
+      color: #A65F00;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color268 {
+      background-color: #CF681F !important;
+      border-bottom-color: #CF681F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color268 .menu-dog-ear-color {
+      color: #CF681F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color269 {
+      background-color: #E3E645 !important;
+      border-bottom-color: #E3E645;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color269 .menu-dog-ear-color {
+      color: #E3E645;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color270 {
+      background-color: #2E8834 !important;
+      border-bottom-color: #2E8834;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color270 .menu-dog-ear-color {
+      color: #2E8834;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color271 {
+      background-color: #A33E7E !important;
+      border-bottom-color: #A33E7E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color271 .menu-dog-ear-color {
+      color: #A33E7E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color272 {
+      background-color: #385C99 !important;
+      border-bottom-color: #385C99;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color272 .menu-dog-ear-color {
+      color: #385C99;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color273 {
+      background-color: #9D8A21 !important;
+      border-bottom-color: #9D8A21;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color273 .menu-dog-ear-color {
+      color: #9D8A21;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color274 {
+      background-color: #621730 !important;
+      border-bottom-color: #621730;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color274 .menu-dog-ear-color {
+      color: #621730;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color275 {
+      background-color: #B61B50 !important;
+      border-bottom-color: #B61B50;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color275 .menu-dog-ear-color {
+      color: #B61B50;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color276 {
+      background-color: #564190 !important;
+      border-bottom-color: #564190;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color276 .menu-dog-ear-color {
+      color: #564190;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color277 {
+      background-color: #2E7607 !important;
+      border-bottom-color: #2E7607;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color277 .menu-dog-ear-color {
+      color: #2E7607;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color278 {
+      background-color: #C84E31 !important;
+      border-bottom-color: #C84E31;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color278 .menu-dog-ear-color {
+      color: #C84E31;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color279 {
+      background-color: #528125 !important;
+      border-bottom-color: #528125;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color279 .menu-dog-ear-color {
+      color: #528125;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color280 {
+      background-color: #A67700 !important;
+      border-bottom-color: #A67700;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color280 .menu-dog-ear-color {
+      color: #A67700;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color281 {
+      background-color: #C24A64 !important;
+      border-bottom-color: #C24A64;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color281 .menu-dog-ear-color {
+      color: #C24A64;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color282 {
+      background-color: #250F5D !important;
+      border-bottom-color: #250F5D;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color282 .menu-dog-ear-color {
+      color: #250F5D;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color283 {
+      background-color: #13502B !important;
+      border-bottom-color: #13502B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color283 .menu-dog-ear-color {
+      color: #13502B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color284 {
+      background-color: #3D698A !important;
+      border-bottom-color: #3D698A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color284 .menu-dog-ear-color {
+      color: #3D698A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color285 {
+      background-color: #104143 !important;
+      border-bottom-color: #104143;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color285 .menu-dog-ear-color {
+      color: #104143;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color286 {
+      background-color: #1A7A26 !important;
+      border-bottom-color: #1A7A26;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color286 .menu-dog-ear-color {
+      color: #1A7A26;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color287 {
+      background-color: #3D6317 !important;
+      border-bottom-color: #3D6317;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color287 .menu-dog-ear-color {
+      color: #3D6317;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color288 {
+      background-color: #2E4772 !important;
+      border-bottom-color: #2E4772;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color288 .menu-dog-ear-color {
+      color: #2E4772;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color289 {
+      background-color: #2E8639 !important;
+      border-bottom-color: #2E8639;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color289 .menu-dog-ear-color {
+      color: #2E8639;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color290 {
+      background-color: #2A878B !important;
+      border-bottom-color: #2A878B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color290 .menu-dog-ear-color {
+      color: #2A878B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color291 {
+      background-color: #298A8A !important;
+      border-bottom-color: #298A8A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color291 .menu-dog-ear-color {
+      color: #298A8A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color292 {
+      background-color: #1E673B !important;
+      border-bottom-color: #1E673B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color292 .menu-dog-ear-color {
+      color: #1E673B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color293 {
+      background-color: #6F4A1A !important;
+      border-bottom-color: #6F4A1A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color293 .menu-dog-ear-color {
+      color: #6F4A1A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color294 {
+      background-color: #773399 !important;
+      border-bottom-color: #773399;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color294 .menu-dog-ear-color {
+      color: #773399;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color295 {
+      background-color: #5B8326 !important;
+      border-bottom-color: #5B8326;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color295 .menu-dog-ear-color {
+      color: #5B8326;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color296 {
+      background-color: #903529 !important;
+      border-bottom-color: #903529;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color296 .menu-dog-ear-color {
+      color: #903529;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color297 {
+      background-color: #446518 !important;
+      border-bottom-color: #446518;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color297 .menu-dog-ear-color {
+      color: #446518;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color298 {
+      background-color: #7E0721 !important;
+      border-bottom-color: #7E0721;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color298 .menu-dog-ear-color {
+      color: #7E0721;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color299 {
+      background-color: #CF411F !important;
+      border-bottom-color: #CF411F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color299 .menu-dog-ear-color {
+      color: #CF411F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color300 {
+      background-color: #885A08 !important;
+      border-bottom-color: #885A08;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color300 .menu-dog-ear-color {
+      color: #885A08;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color301 {
+      background-color: #71941F !important;
+      border-bottom-color: #71941F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color301 .menu-dog-ear-color {
+      color: #71941F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color302 {
+      background-color: #1F7D70 !important;
+      border-bottom-color: #1F7D70;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color302 .menu-dog-ear-color {
+      color: #1F7D70;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color303 {
+      background-color: #E64D45 !important;
+      border-bottom-color: #E64D45;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color303 .menu-dog-ear-color {
+      color: #E64D45;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color304 {
+      background-color: #207126 !important;
+      border-bottom-color: #207126;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color304 .menu-dog-ear-color {
+      color: #207126;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color305 {
+      background-color: #905429 !important;
+      border-bottom-color: #905429;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color305 .menu-dog-ear-color {
+      color: #905429;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color306 {
+      background-color: #D18C50 !important;
+      border-bottom-color: #D18C50;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color306 .menu-dog-ear-color {
+      color: #D18C50;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color307 {
+      background-color: #AC513B !important;
+      border-bottom-color: #AC513B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color307 .menu-dog-ear-color {
+      color: #AC513B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color308 {
+      background-color: #911F37 !important;
+      border-bottom-color: #911F37;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color308 .menu-dog-ear-color {
+      color: #911F37;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color309 {
+      background-color: #246568 !important;
+      border-bottom-color: #246568;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color309 .menu-dog-ear-color {
+      color: #246568;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color310 {
+      background-color: #066912 !important;
+      border-bottom-color: #066912;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color310 .menu-dog-ear-color {
+      color: #066912;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color311 {
+      background-color: #1C6343 !important;
+      border-bottom-color: #1C6343;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color311 .menu-dog-ear-color {
+      color: #1C6343;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color312 {
+      background-color: #2B516F !important;
+      border-bottom-color: #2B516F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color312 .menu-dog-ear-color {
+      color: #2B516F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color313 {
+      background-color: #77BD1C !important;
+      border-bottom-color: #77BD1C;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color313 .menu-dog-ear-color {
+      color: #77BD1C;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color314 {
+      background-color: #9B9D21 !important;
+      border-bottom-color: #9B9D21;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color314 .menu-dog-ear-color {
+      color: #9B9D21;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color315 {
+      background-color: #AC6A3B !important;
+      border-bottom-color: #AC6A3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color315 .menu-dog-ear-color {
+      color: #AC6A3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color316 {
+      background-color: #246568 !important;
+      border-bottom-color: #246568;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color316 .menu-dog-ear-color {
+      color: #246568;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color317 {
+      background-color: #35206C !important;
+      border-bottom-color: #35206C;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color317 .menu-dog-ear-color {
+      color: #35206C;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color318 {
+      background-color: #AC3E3B !important;
+      border-bottom-color: #AC3E3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color318 .menu-dog-ear-color {
+      color: #AC3E3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color319 {
+      background-color: #8A227E !important;
+      border-bottom-color: #8A227E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color319 .menu-dog-ear-color {
+      color: #8A227E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color320 {
+      background-color: #E6CD45 !important;
+      border-bottom-color: #E6CD45;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color320 .menu-dog-ear-color {
+      color: #E6CD45;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color321 {
+      background-color: #902C29 !important;
+      border-bottom-color: #902C29;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color321 .menu-dog-ear-color {
+      color: #902C29;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color322 {
+      background-color: #903D29 !important;
+      border-bottom-color: #903D29;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color322 .menu-dog-ear-color {
+      color: #903D29;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color323 {
+      background-color: #8FA539 !important;
+      border-bottom-color: #8FA539;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color323 .menu-dog-ear-color {
+      color: #8FA539;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color324 {
+      background-color: #CFD150 !important;
+      border-bottom-color: #CFD150;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color324 .menu-dog-ear-color {
+      color: #CFD150;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color325 {
+      background-color: #573B9E !important;
+      border-bottom-color: #573B9E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color325 .menu-dog-ear-color {
+      color: #573B9E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color326 {
+      background-color: #6DC83C !important;
+      border-bottom-color: #6DC83C;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color326 .menu-dog-ear-color {
+      color: #6DC83C;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color327 {
+      background-color: #2A7C4B !important;
+      border-bottom-color: #2A7C4B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color327 .menu-dog-ear-color {
+      color: #2A7C4B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color328 {
+      background-color: #6F241A !important;
+      border-bottom-color: #6F241A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color328 .menu-dog-ear-color {
+      color: #6F241A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color329 {
+      background-color: #155719 !important;
+      border-bottom-color: #155719;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color329 .menu-dog-ear-color {
+      color: #155719;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color330 {
+      background-color: #055252 !important;
+      border-bottom-color: #055252;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color330 .menu-dog-ear-color {
+      color: #055252;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color331 {
+      background-color: #AC483B !important;
+      border-bottom-color: #AC483B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color331 .menu-dog-ear-color {
+      color: #AC483B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color332 {
+      background-color: #443176 !important;
+      border-bottom-color: #443176;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color332 .menu-dog-ear-color {
+      color: #443176;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color333 {
+      background-color: #569633 !important;
+      border-bottom-color: #569633;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color333 .menu-dog-ear-color {
+      color: #569633;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color334 {
+      background-color: #4E1A69 !important;
+      border-bottom-color: #4E1A69;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color334 .menu-dog-ear-color {
+      color: #4E1A69;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color335 {
+      background-color: #3F0A5B !important;
+      border-bottom-color: #3F0A5B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color335 .menu-dog-ear-color {
+      color: #3F0A5B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color336 {
+      background-color: #CB8C3A !important;
+      border-bottom-color: #CB8C3A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color336 .menu-dog-ear-color {
+      color: #CB8C3A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color337 {
+      background-color: #82A238 !important;
+      border-bottom-color: #82A238;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color337 .menu-dog-ear-color {
+      color: #82A238;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color338 {
+      background-color: #905929 !important;
+      border-bottom-color: #905929;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color338 .menu-dog-ear-color {
+      color: #905929;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color339 {
+      background-color: #C83531 !important;
+      border-bottom-color: #C83531;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color339 .menu-dog-ear-color {
+      color: #C83531;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color340 {
+      background-color: #1E3968 !important;
+      border-bottom-color: #1E3968;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color340 .menu-dog-ear-color {
+      color: #1E3968;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color341 {
+      background-color: #317B7E !important;
+      border-bottom-color: #317B7E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color341 .menu-dog-ear-color {
+      color: #317B7E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color342 {
+      background-color: #E6AD45 !important;
+      border-bottom-color: #E6AD45;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color342 .menu-dog-ear-color {
+      color: #E6AD45;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color343 {
+      background-color: #862E66 !important;
+      border-bottom-color: #862E66;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color343 .menu-dog-ear-color {
+      color: #862E66;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color344 {
+      background-color: #168F58 !important;
+      border-bottom-color: #168F58;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color344 .menu-dog-ear-color {
+      color: #168F58;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color345 {
+      background-color: #AC6F3B !important;
+      border-bottom-color: #AC6F3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color345 .menu-dog-ear-color {
+      color: #AC6F3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color346 {
+      background-color: #AC8C3B !important;
+      border-bottom-color: #AC8C3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color346 .menu-dog-ear-color {
+      color: #AC8C3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color347 {
+      background-color: #16A23B !important;
+      border-bottom-color: #16A23B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color347 .menu-dog-ear-color {
+      color: #16A23B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color348 {
+      background-color: #D1A350 !important;
+      border-bottom-color: #D1A350;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color348 .menu-dog-ear-color {
+      color: #D1A350;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color349 {
+      background-color: #1E435C !important;
+      border-bottom-color: #1E435C;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color349 .menu-dog-ear-color {
+      color: #1E435C;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color350 {
+      background-color: #904529 !important;
+      border-bottom-color: #904529;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color350 .menu-dog-ear-color {
+      color: #904529;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color351 {
+      background-color: #4B57A4 !important;
+      border-bottom-color: #4B57A4;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color351 .menu-dog-ear-color {
+      color: #4B57A4;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color352 {
+      background-color: #AA2A60 !important;
+      border-bottom-color: #AA2A60;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color352 .menu-dog-ear-color {
+      color: #AA2A60;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color353 {
+      background-color: #054F52 !important;
+      border-bottom-color: #054F52;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color353 .menu-dog-ear-color {
+      color: #054F52;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color354 {
+      background-color: #801763 !important;
+      border-bottom-color: #801763;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color354 .menu-dog-ear-color {
+      color: #801763;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color355 {
+      background-color: #2B5E82 !important;
+      border-bottom-color: #2B5E82;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color355 .menu-dog-ear-color {
+      color: #2B5E82;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color356 {
+      background-color: #A2C02F !important;
+      border-bottom-color: #A2C02F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color356 .menu-dog-ear-color {
+      color: #A2C02F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color357 {
+      background-color: #5A6A19 !important;
+      border-bottom-color: #5A6A19;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color357 .menu-dog-ear-color {
+      color: #5A6A19;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color358 {
+      background-color: #073F6B !important;
+      border-bottom-color: #073F6B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color358 .menu-dog-ear-color {
+      color: #073F6B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color359 {
+      background-color: #A0C54B !important;
+      border-bottom-color: #A0C54B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color359 .menu-dog-ear-color {
+      color: #A0C54B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color360 {
+      background-color: #D8871E !important;
+      border-bottom-color: #D8871E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color360 .menu-dog-ear-color {
+      color: #D8871E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color361 {
+      background-color: #D54060 !important;
+      border-bottom-color: #D54060;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color361 .menu-dog-ear-color {
+      color: #D54060;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color362 {
+      background-color: #35B245 !important;
+      border-bottom-color: #35B245;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color362 .menu-dog-ear-color {
+      color: #35B245;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color363 {
+      background-color: #E68F45 !important;
+      border-bottom-color: #E68F45;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color363 .menu-dog-ear-color {
+      color: #E68F45;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color364 {
+      background-color: #5B2B73 !important;
+      border-bottom-color: #5B2B73;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color364 .menu-dog-ear-color {
+      color: #5B2B73;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color365 {
+      background-color: #2B9748 !important;
+      border-bottom-color: #2B9748;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color365 .menu-dog-ear-color {
+      color: #2B9748;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color366 {
+      background-color: #AC7B3B !important;
+      border-bottom-color: #AC7B3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color366 .menu-dog-ear-color {
+      color: #AC7B3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color367 {
+      background-color: #10463E !important;
+      border-bottom-color: #10463E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color367 .menu-dog-ear-color {
+      color: #10463E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color368 {
+      background-color: #9F374D !important;
+      border-bottom-color: #9F374D;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color368 .menu-dog-ear-color {
+      color: #9F374D;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color369 {
+      background-color: #93325B !important;
+      border-bottom-color: #93325B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color369 .menu-dog-ear-color {
+      color: #93325B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color370 {
+      background-color: #195457 !important;
+      border-bottom-color: #195457;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color370 .menu-dog-ear-color {
+      color: #195457;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color371 {
+      background-color: #0D2A5A !important;
+      border-bottom-color: #0D2A5A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color371 .menu-dog-ear-color {
+      color: #0D2A5A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color372 {
+      background-color: #9D2721 !important;
+      border-bottom-color: #9D2721;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color372 .menu-dog-ear-color {
+      color: #9D2721;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color373 {
+      background-color: #279D2E !important;
+      border-bottom-color: #279D2E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color373 .menu-dog-ear-color {
+      color: #279D2E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color374 {
+      background-color: #40739A !important;
+      border-bottom-color: #40739A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color374 .menu-dog-ear-color {
+      color: #40739A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color375 {
+      background-color: #AC5A3B !important;
+      border-bottom-color: #AC5A3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color375 .menu-dog-ear-color {
+      color: #AC5A3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color376 {
+      background-color: #16954A !important;
+      border-bottom-color: #16954A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color376 .menu-dog-ear-color {
+      color: #16954A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color377 {
+      background-color: #768A27 !important;
+      border-bottom-color: #768A27;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color377 .menu-dog-ear-color {
+      color: #768A27;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color378 {
+      background-color: #6DB646 !important;
+      border-bottom-color: #6DB646;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color378 .menu-dog-ear-color {
+      color: #6DB646;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color379 {
+      background-color: #C85A31 !important;
+      border-bottom-color: #C85A31;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color379 .menu-dog-ear-color {
+      color: #C85A31;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color380 {
+      background-color: #EF935A !important;
+      border-bottom-color: #EF935A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color380 .menu-dog-ear-color {
+      color: #EF935A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color381 {
+      background-color: #7B2348 !important;
+      border-bottom-color: #7B2348;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color381 .menu-dog-ear-color {
+      color: #7B2348;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color382 {
+      background-color: #679B35 !important;
+      border-bottom-color: #679B35;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color382 .menu-dog-ear-color {
+      color: #679B35;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color383 {
+      background-color: #7B1A57 !important;
+      border-bottom-color: #7B1A57;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color383 .menu-dog-ear-color {
+      color: #7B1A57;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color384 {
+      background-color: #983456 !important;
+      border-bottom-color: #983456;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color384 .menu-dog-ear-color {
+      color: #983456;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color385 {
+      background-color: #006B53 !important;
+      border-bottom-color: #006B53;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color385 .menu-dog-ear-color {
+      color: #006B53;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color386 {
+      background-color: #AC6F3B !important;
+      border-bottom-color: #AC6F3B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color386 .menu-dog-ear-color {
+      color: #AC6F3B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color387 {
+      background-color: #146E5A !important;
+      border-bottom-color: #146E5A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color387 .menu-dog-ear-color {
+      color: #146E5A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color388 {
+      background-color: #D18B50 !important;
+      border-bottom-color: #D18B50;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color388 .menu-dog-ear-color {
+      color: #D18B50;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color389 {
+      background-color: #0F1C72 !important;
+      border-bottom-color: #0F1C72;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color389 .menu-dog-ear-color {
+      color: #0F1C72;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color390 {
+      background-color: #CB4B3A !important;
+      border-bottom-color: #CB4B3A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color390 .menu-dog-ear-color {
+      color: #CB4B3A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color391 {
+      background-color: #3A9A85 !important;
+      border-bottom-color: #3A9A85;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color391 .menu-dog-ear-color {
+      color: #3A9A85;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color392 {
+      background-color: #88A438 !important;
+      border-bottom-color: #88A438;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color392 .menu-dog-ear-color {
+      color: #88A438;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color393 {
+      background-color: #AB541F !important;
+      border-bottom-color: #AB541F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color393 .menu-dog-ear-color {
+      color: #AB541F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color394 {
+      background-color: #CF241F !important;
+      border-bottom-color: #CF241F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color394 .menu-dog-ear-color {
+      color: #CF241F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color395 {
+      background-color: #812C69 !important;
+      border-bottom-color: #812C69;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color395 .menu-dog-ear-color {
+      color: #812C69;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color396 {
+      background-color: #143247 !important;
+      border-bottom-color: #143247;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color396 .menu-dog-ear-color {
+      color: #143247;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color397 {
+      background-color: #AB6F1F !important;
+      border-bottom-color: #AB6F1F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color397 .menu-dog-ear-color {
+      color: #AB6F1F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color398 {
+      background-color: #9D7121 !important;
+      border-bottom-color: #9D7121;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color398 .menu-dog-ear-color {
+      color: #9D7121;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color399 {
+      background-color: #641D5B !important;
+      border-bottom-color: #641D5B;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color399 .menu-dog-ear-color {
+      color: #641D5B;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color400 {
+      background-color: #EFAF5A !important;
+      border-bottom-color: #EFAF5A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color400 .menu-dog-ear-color {
+      color: #EFAF5A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color401 {
+      background-color: #D6B257 !important;
+      border-bottom-color: #D6B257;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color401 .menu-dog-ear-color {
+      color: #D6B257;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color402 {
+      background-color: #236767 !important;
+      border-bottom-color: #236767;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color402 .menu-dog-ear-color {
+      color: #236767;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color403 {
+      background-color: #1A496E !important;
+      border-bottom-color: #1A496E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color403 .menu-dog-ear-color {
+      color: #1A496E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color404 {
+      background-color: #7C005A !important;
+      border-bottom-color: #7C005A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color404 .menu-dog-ear-color {
+      color: #7C005A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color405 {
+      background-color: #E68E45 !important;
+      border-bottom-color: #E68E45;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color405 .menu-dog-ear-color {
+      color: #E68E45;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color406 {
+      background-color: #145E5E !important;
+      border-bottom-color: #145E5E;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color406 .menu-dog-ear-color {
+      color: #145E5E;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color407 {
+      background-color: #4D1246 !important;
+      border-bottom-color: #4D1246;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color407 .menu-dog-ear-color {
+      color: #4D1246;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color408 {
+      background-color: #ACCB52 !important;
+      border-bottom-color: #ACCB52;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color408 .menu-dog-ear-color {
+      color: #ACCB52;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color409 {
+      background-color: #124D32 !important;
+      border-bottom-color: #124D32;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color409 .menu-dog-ear-color {
+      color: #124D32;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color410 {
+      background-color: #BFE356 !important;
+      border-bottom-color: #BFE356;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color410 .menu-dog-ear-color {
+      color: #BFE356;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color411 {
+      background-color: #42891D !important;
+      border-bottom-color: #42891D;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color411 .menu-dog-ear-color {
+      color: #42891D;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color412 {
+      background-color: #CF4F1F !important;
+      border-bottom-color: #CF4F1F;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color412 .menu-dog-ear-color {
+      color: #CF4F1F;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color413 {
+      background-color: #6F2A1A !important;
+      border-bottom-color: #6F2A1A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color413 .menu-dog-ear-color {
+      color: #6F2A1A;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color414 {
+      background-color: #A64000 !important;
+      border-bottom-color: #A64000;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color414 .menu-dog-ear-color {
+      color: #A64000;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color415 {
+      background-color: #14787D !important;
+      border-bottom-color: #14787D;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color415 .menu-dog-ear-color {
+      color: #14787D;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color416 {
+      background-color: #9D5A21 !important;
+      border-bottom-color: #9D5A21;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color416 .menu-dog-ear-color {
+      color: #9D5A21;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color417 {
+      background-color: #884308 !important;
+      border-bottom-color: #884308;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color417 .menu-dog-ear-color {
+      color: #884308;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color418 {
+      background-color: #A04186 !important;
+      border-bottom-color: #A04186;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color418 .menu-dog-ear-color {
+      color: #A04186;
+    }
+    /* !important is required so the background will have an effect when printing */
+    .status-color-extra_color419 {
+      background-color: #B01B5A !important;
+      border-bottom-color: #B01B5A;
+      -webkit-print-color-adjust: exact !important;
+    }
+
+    /* The status cell note "+" sign color */
+    .status-color-extra_color419 .menu-dog-ear-color {
+      color: #B01B5A;
+    }
+</style>
+
+<script type="text/javascript">
+  Pulse.Apps.PulseBoard.ColorCellColors = {"0":{"color":"#fdab3d","border":"#E99729","pos":0,"var_name":"orange"},"1":{"color":"#00c875","border":"#00B461","pos":1,"var_name":"green-shadow"},"2":{"color":"#e2445c","border":"#CE3048","pos":2,"var_name":"red-shadow"},"3":{"color":"#0086c0","border":"#3DB0DF","pos":3,"var_name":"blue-links"},"7":{"color":"#579bfc","border":"#4387E8","pos":4,"var_name":"bright-blue"},"4":{"color":"#a25ddc","border":"#9238AF","pos":5,"var_name":"purple"},"6":{"color":"#037f4c","border":"#006B38","pos":6,"var_name":"grass-green"},"8":{"color":"#CAB641","border":"#C0AB31","pos":7,"var_name":"mustered"},"9":{"color":"#FFCB00","border":"#C0AB1B","pos":8,"var_name":"yellow"},"10":{"color":"#333333","border":"#000","pos":9,"var_name":"soft-black"},"5":{"color":"#c4c4c4","border":"#B0B0B0","pos":10,"var_name":"grey"},"11":{"color":"#BB3354","border":"#A42D4A","pos":11,"var_name":"dark-red"},"12":{"color":"#FF158A","border":"#E01279","pos":12,"var_name":"dark-pink"},"13":{"color":"#FF5AC4","border":"#E04FAC","pos":13,"var_name":"light-pink"},"14":{"color":"#784BD1","border":"#8F4DC4","pos":14,"var_name":"dark-purple"},"15":{"color":"#9CD326","border":"#89B921","pos":15,"var_name":"lime-green"},"16":{"color":"#66CCFF","border":"#5AB3E0","pos":16,"var_name":"turquoise"},"17":{"color":"#808080","border":"#707070","pos":17,"var_name":"trolley-grey"},"18":{"color":"#7F5347","border":"#70493E","pos":18,"var_name":"brown"},"19":{"color":"#FF642E","border":"#E05828","pos":19,"var_name":"dark-orange"}};
+  Pulse.Apps.PulseBoard.ColorCellColorsArray = [{"color":"#fdab3d","border":"#E99729","pos":0,"var_name":"orange","id":0},{"color":"#00c875","border":"#00B461","pos":1,"var_name":"green-shadow","id":1},{"color":"#e2445c","border":"#CE3048","pos":2,"var_name":"red-shadow","id":2},{"color":"#0086c0","border":"#3DB0DF","pos":3,"var_name":"blue-links","id":3},{"color":"#579bfc","border":"#4387E8","pos":4,"var_name":"bright-blue","id":7},{"color":"#a25ddc","border":"#9238AF","pos":5,"var_name":"purple","id":4},{"color":"#037f4c","border":"#006B38","pos":6,"var_name":"grass-green","id":6},{"color":"#CAB641","border":"#C0AB31","pos":7,"var_name":"mustered","id":8},{"color":"#FFCB00","border":"#C0AB1B","pos":8,"var_name":"yellow","id":9},{"color":"#333333","border":"#000","pos":9,"var_name":"soft-black","id":10},{"color":"#c4c4c4","border":"#B0B0B0","pos":10,"var_name":"grey","id":5},{"color":"#BB3354","border":"#A42D4A","pos":11,"var_name":"dark-red","id":11},{"color":"#FF158A","border":"#E01279","pos":12,"var_name":"dark-pink","id":12},{"color":"#FF5AC4","border":"#E04FAC","pos":13,"var_name":"light-pink","id":13},{"color":"#784BD1","border":"#8F4DC4","pos":14,"var_name":"dark-purple","id":14},{"color":"#9CD326","border":"#89B921","pos":15,"var_name":"lime-green","id":15},{"color":"#66CCFF","border":"#5AB3E0","pos":16,"var_name":"turquoise","id":16},{"color":"#808080","border":"#707070","pos":17,"var_name":"trolley-grey","id":17},{"color":"#7F5347","border":"#70493E","pos":18,"var_name":"brown","id":18},{"color":"#FF642E","border":"#E05828","pos":19,"var_name":"dark-orange","id":19}]
+  Pulse.Apps.PulseBoard.ExtraCellColors = {"201":{"color":"#AC9B3B","border":"#AC9B3B","pos":201,"var_name":"extra_color201"},"202":{"color":"#B02B58","border":"#B02B58","pos":202,"var_name":"extra_color202"},"203":{"color":"#B43685","border":"#B43685","pos":203,"var_name":"extra_color203"},"204":{"color":"#CF701F","border":"#CF701F","pos":204,"var_name":"extra_color204"},"205":{"color":"#709D36","border":"#709D36","pos":205,"var_name":"extra_color205"},"206":{"color":"#222D75","border":"#222D75","pos":206,"var_name":"extra_color206"},"207":{"color":"#7BB62D","border":"#7BB62D","pos":207,"var_name":"extra_color207"},"208":{"color":"#703A8C","border":"#703A8C","pos":208,"var_name":"extra_color208"},"209":{"color":"#7F2443","border":"#7F2443","pos":209,"var_name":"extra_color209"},"210":{"color":"#D8331E","border":"#D8331E","pos":210,"var_name":"extra_color210"},"211":{"color":"#8F1680","border":"#8F1680","pos":211,"var_name":"extra_color211"},"212":{"color":"#868808","border":"#868808","pos":212,"var_name":"extra_color212"},"213":{"color":"#19A322","border":"#19A322","pos":213,"var_name":"extra_color213"},"214":{"color":"#D68857","border":"#D68857","pos":214,"var_name":"extra_color214"},"215":{"color":"#B24394","border":"#B24394","pos":215,"var_name":"extra_color215"},"216":{"color":"#AC7C3B","border":"#AC7C3B","pos":216,"var_name":"extra_color216"},"217":{"color":"#297754","border":"#297754","pos":217,"var_name":"extra_color217"},"218":{"color":"#6F311A","border":"#6F311A","pos":218,"var_name":"extra_color218"},"219":{"color":"#AC413B","border":"#AC413B","pos":219,"var_name":"extra_color219"},"220":{"color":"#C87031","border":"#C87031","pos":220,"var_name":"extra_color220"},"221":{"color":"#A4C61E","border":"#A4C61E","pos":221,"var_name":"extra_color221"},"222":{"color":"#9D5921","border":"#9D5921","pos":222,"var_name":"extra_color222"},"223":{"color":"#1E7579","border":"#1E7579","pos":223,"var_name":"extra_color223"},"224":{"color":"#266F5F","border":"#266F5F","pos":224,"var_name":"extra_color224"},"225":{"color":"#69BA1C","border":"#69BA1C","pos":225,"var_name":"extra_color225"},"226":{"color":"#256C62","border":"#256C62","pos":226,"var_name":"extra_color226"},"227":{"color":"#AB831F","border":"#AB831F","pos":227,"var_name":"extra_color227"},"228":{"color":"#80A21D","border":"#80A21D","pos":228,"var_name":"extra_color228"},"229":{"color":"#2A526F","border":"#2A526F","pos":229,"var_name":"extra_color229"},"230":{"color":"#77296E","border":"#77296E","pos":230,"var_name":"extra_color230"},"231":{"color":"#ABD841","border":"#ABD841","pos":231,"var_name":"extra_color231"},"232":{"color":"#1B5C8B","border":"#1B5C8B","pos":232,"var_name":"extra_color232"},"233":{"color":"#1A5A51","border":"#1A5A51","pos":233,"var_name":"extra_color233"},"234":{"color":"#EFC55A","border":"#EFC55A","pos":234,"var_name":"extra_color234"},"235":{"color":"#AC843B","border":"#AC843B","pos":235,"var_name":"extra_color235"},"236":{"color":"#D6A057","border":"#D6A057","pos":236,"var_name":"extra_color236"},"237":{"color":"#5C8008","border":"#5C8008","pos":237,"var_name":"extra_color237"},"238":{"color":"#887408","border":"#887408","pos":238,"var_name":"extra_color238"},"239":{"color":"#23904F","border":"#23904F","pos":239,"var_name":"extra_color239"},"240":{"color":"#AC6E3B","border":"#AC6E3B","pos":240,"var_name":"extra_color240"},"241":{"color":"#5F1635","border":"#5F1635","pos":241,"var_name":"extra_color241"},"242":{"color":"#307E7E","border":"#307E7E","pos":242,"var_name":"extra_color242"},"243":{"color":"#AAAC3B","border":"#AAAC3B","pos":243,"var_name":"extra_color243"},"244":{"color":"#6F3D1A","border":"#6F3D1A","pos":244,"var_name":"extra_color244"},"245":{"color":"#155C5F","border":"#155C5F","pos":245,"var_name":"extra_color245"},"246":{"color":"#148273","border":"#148273","pos":246,"var_name":"extra_color246"},"247":{"color":"#145324","border":"#145324","pos":247,"var_name":"extra_color247"},"248":{"color":"#228A5B","border":"#228A5B","pos":248,"var_name":"extra_color248"},"249":{"color":"#3D5A8B","border":"#3D5A8B","pos":249,"var_name":"extra_color249"},"250":{"color":"#6F1C1A","border":"#6F1C1A","pos":250,"var_name":"extra_color250"},"251":{"color":"#333C76","border":"#333C76","pos":251,"var_name":"extra_color251"},"252":{"color":"#D15650","border":"#D15650","pos":252,"var_name":"extra_color252"},"253":{"color":"#6F411A","border":"#6F411A","pos":253,"var_name":"extra_color253"},"254":{"color":"#6A0645","border":"#6A0645","pos":254,"var_name":"extra_color254"},"255":{"color":"#388A78","border":"#388A78","pos":255,"var_name":"extra_color255"},"256":{"color":"#1F6B33","border":"#1F6B33","pos":256,"var_name":"extra_color256"},"257":{"color":"#AC663B","border":"#AC663B","pos":257,"var_name":"extra_color257"},"258":{"color":"#880E08","border":"#880E08","pos":258,"var_name":"extra_color258"},"259":{"color":"#6EB32C","border":"#6EB32C","pos":259,"var_name":"extra_color259"},"260":{"color":"#759D00","border":"#759D00","pos":260,"var_name":"extra_color260"},"261":{"color":"#D1BD50","border":"#D1BD50","pos":261,"var_name":"extra_color261"},"262":{"color":"#475193","border":"#475193","pos":262,"var_name":"extra_color262"},"263":{"color":"#884208","border":"#884208","pos":263,"var_name":"extra_color263"},"264":{"color":"#906329","border":"#906329","pos":264,"var_name":"extra_color264"},"265":{"color":"#C87731","border":"#C87731","pos":265,"var_name":"extra_color265"},"266":{"color":"#2C8142","border":"#2C8142","pos":266,"var_name":"extra_color266"},"267":{"color":"#A65F00","border":"#A65F00","pos":267,"var_name":"extra_color267"},"268":{"color":"#CF681F","border":"#CF681F","pos":268,"var_name":"extra_color268"},"269":{"color":"#E3E645","border":"#E3E645","pos":269,"var_name":"extra_color269"},"270":{"color":"#2E8834","border":"#2E8834","pos":270,"var_name":"extra_color270"},"271":{"color":"#A33E7E","border":"#A33E7E","pos":271,"var_name":"extra_color271"},"272":{"color":"#385C99","border":"#385C99","pos":272,"var_name":"extra_color272"},"273":{"color":"#9D8A21","border":"#9D8A21","pos":273,"var_name":"extra_color273"},"274":{"color":"#621730","border":"#621730","pos":274,"var_name":"extra_color274"},"275":{"color":"#B61B50","border":"#B61B50","pos":275,"var_name":"extra_color275"},"276":{"color":"#564190","border":"#564190","pos":276,"var_name":"extra_color276"},"277":{"color":"#2E7607","border":"#2E7607","pos":277,"var_name":"extra_color277"},"278":{"color":"#C84E31","border":"#C84E31","pos":278,"var_name":"extra_color278"},"279":{"color":"#528125","border":"#528125","pos":279,"var_name":"extra_color279"},"280":{"color":"#A67700","border":"#A67700","pos":280,"var_name":"extra_color280"},"281":{"color":"#C24A64","border":"#C24A64","pos":281,"var_name":"extra_color281"},"282":{"color":"#250F5D","border":"#250F5D","pos":282,"var_name":"extra_color282"},"283":{"color":"#13502B","border":"#13502B","pos":283,"var_name":"extra_color283"},"284":{"color":"#3D698A","border":"#3D698A","pos":284,"var_name":"extra_color284"},"285":{"color":"#104143","border":"#104143","pos":285,"var_name":"extra_color285"},"286":{"color":"#1A7A26","border":"#1A7A26","pos":286,"var_name":"extra_color286"},"287":{"color":"#3D6317","border":"#3D6317","pos":287,"var_name":"extra_color287"},"288":{"color":"#2E4772","border":"#2E4772","pos":288,"var_name":"extra_color288"},"289":{"color":"#2E8639","border":"#2E8639","pos":289,"var_name":"extra_color289"},"290":{"color":"#2A878B","border":"#2A878B","pos":290,"var_name":"extra_color290"},"291":{"color":"#298A8A","border":"#298A8A","pos":291,"var_name":"extra_color291"},"292":{"color":"#1E673B","border":"#1E673B","pos":292,"var_name":"extra_color292"},"293":{"color":"#6F4A1A","border":"#6F4A1A","pos":293,"var_name":"extra_color293"},"294":{"color":"#773399","border":"#773399","pos":294,"var_name":"extra_color294"},"295":{"color":"#5B8326","border":"#5B8326","pos":295,"var_name":"extra_color295"},"296":{"color":"#903529","border":"#903529","pos":296,"var_name":"extra_color296"},"297":{"color":"#446518","border":"#446518","pos":297,"var_name":"extra_color297"},"298":{"color":"#7E0721","border":"#7E0721","pos":298,"var_name":"extra_color298"},"299":{"color":"#CF411F","border":"#CF411F","pos":299,"var_name":"extra_color299"},"300":{"color":"#885A08","border":"#885A08","pos":300,"var_name":"extra_color300"},"301":{"color":"#71941F","border":"#71941F","pos":301,"var_name":"extra_color301"},"302":{"color":"#1F7D70","border":"#1F7D70","pos":302,"var_name":"extra_color302"},"303":{"color":"#E64D45","border":"#E64D45","pos":303,"var_name":"extra_color303"},"304":{"color":"#207126","border":"#207126","pos":304,"var_name":"extra_color304"},"305":{"color":"#905429","border":"#905429","pos":305,"var_name":"extra_color305"},"306":{"color":"#D18C50","border":"#D18C50","pos":306,"var_name":"extra_color306"},"307":{"color":"#AC513B","border":"#AC513B","pos":307,"var_name":"extra_color307"},"308":{"color":"#911F37","border":"#911F37","pos":308,"var_name":"extra_color308"},"309":{"color":"#246568","border":"#246568","pos":309,"var_name":"extra_color309"},"310":{"color":"#066912","border":"#066912","pos":310,"var_name":"extra_color310"},"311":{"color":"#1C6343","border":"#1C6343","pos":311,"var_name":"extra_color311"},"312":{"color":"#2B516F","border":"#2B516F","pos":312,"var_name":"extra_color312"},"313":{"color":"#77BD1C","border":"#77BD1C","pos":313,"var_name":"extra_color313"},"314":{"color":"#9B9D21","border":"#9B9D21","pos":314,"var_name":"extra_color314"},"315":{"color":"#AC6A3B","border":"#AC6A3B","pos":315,"var_name":"extra_color315"},"316":{"color":"#246568","border":"#246568","pos":316,"var_name":"extra_color316"},"317":{"color":"#35206C","border":"#35206C","pos":317,"var_name":"extra_color317"},"318":{"color":"#AC3E3B","border":"#AC3E3B","pos":318,"var_name":"extra_color318"},"319":{"color":"#8A227E","border":"#8A227E","pos":319,"var_name":"extra_color319"},"320":{"color":"#E6CD45","border":"#E6CD45","pos":320,"var_name":"extra_color320"},"321":{"color":"#902C29","border":"#902C29","pos":321,"var_name":"extra_color321"},"322":{"color":"#903D29","border":"#903D29","pos":322,"var_name":"extra_color322"},"323":{"color":"#8FA539","border":"#8FA539","pos":323,"var_name":"extra_color323"},"324":{"color":"#CFD150","border":"#CFD150","pos":324,"var_name":"extra_color324"},"325":{"color":"#573B9E","border":"#573B9E","pos":325,"var_name":"extra_color325"},"326":{"color":"#6DC83C","border":"#6DC83C","pos":326,"var_name":"extra_color326"},"327":{"color":"#2A7C4B","border":"#2A7C4B","pos":327,"var_name":"extra_color327"},"328":{"color":"#6F241A","border":"#6F241A","pos":328,"var_name":"extra_color328"},"329":{"color":"#155719","border":"#155719","pos":329,"var_name":"extra_color329"},"330":{"color":"#055252","border":"#055252","pos":330,"var_name":"extra_color330"},"331":{"color":"#AC483B","border":"#AC483B","pos":331,"var_name":"extra_color331"},"332":{"color":"#443176","border":"#443176","pos":332,"var_name":"extra_color332"},"333":{"color":"#569633","border":"#569633","pos":333,"var_name":"extra_color333"},"334":{"color":"#4E1A69","border":"#4E1A69","pos":334,"var_name":"extra_color334"},"335":{"color":"#3F0A5B","border":"#3F0A5B","pos":335,"var_name":"extra_color335"},"336":{"color":"#CB8C3A","border":"#CB8C3A","pos":336,"var_name":"extra_color336"},"337":{"color":"#82A238","border":"#82A238","pos":337,"var_name":"extra_color337"},"338":{"color":"#905929","border":"#905929","pos":338,"var_name":"extra_color338"},"339":{"color":"#C83531","border":"#C83531","pos":339,"var_name":"extra_color339"},"340":{"color":"#1E3968","border":"#1E3968","pos":340,"var_name":"extra_color340"},"341":{"color":"#317B7E","border":"#317B7E","pos":341,"var_name":"extra_color341"},"342":{"color":"#E6AD45","border":"#E6AD45","pos":342,"var_name":"extra_color342"},"343":{"color":"#862E66","border":"#862E66","pos":343,"var_name":"extra_color343"},"344":{"color":"#168F58","border":"#168F58","pos":344,"var_name":"extra_color344"},"345":{"color":"#AC6F3B","border":"#AC6F3B","pos":345,"var_name":"extra_color345"},"346":{"color":"#AC8C3B","border":"#AC8C3B","pos":346,"var_name":"extra_color346"},"347":{"color":"#16A23B","border":"#16A23B","pos":347,"var_name":"extra_color347"},"348":{"color":"#D1A350","border":"#D1A350","pos":348,"var_name":"extra_color348"},"349":{"color":"#1E435C","border":"#1E435C","pos":349,"var_name":"extra_color349"},"350":{"color":"#904529","border":"#904529","pos":350,"var_name":"extra_color350"},"351":{"color":"#4B57A4","border":"#4B57A4","pos":351,"var_name":"extra_color351"},"352":{"color":"#AA2A60","border":"#AA2A60","pos":352,"var_name":"extra_color352"},"353":{"color":"#054F52","border":"#054F52","pos":353,"var_name":"extra_color353"},"354":{"color":"#801763","border":"#801763","pos":354,"var_name":"extra_color354"},"355":{"color":"#2B5E82","border":"#2B5E82","pos":355,"var_name":"extra_color355"},"356":{"color":"#A2C02F","border":"#A2C02F","pos":356,"var_name":"extra_color356"},"357":{"color":"#5A6A19","border":"#5A6A19","pos":357,"var_name":"extra_color357"},"358":{"color":"#073F6B","border":"#073F6B","pos":358,"var_name":"extra_color358"},"359":{"color":"#A0C54B","border":"#A0C54B","pos":359,"var_name":"extra_color359"},"360":{"color":"#D8871E","border":"#D8871E","pos":360,"var_name":"extra_color360"},"361":{"color":"#D54060","border":"#D54060","pos":361,"var_name":"extra_color361"},"362":{"color":"#35B245","border":"#35B245","pos":362,"var_name":"extra_color362"},"363":{"color":"#E68F45","border":"#E68F45","pos":363,"var_name":"extra_color363"},"364":{"color":"#5B2B73","border":"#5B2B73","pos":364,"var_name":"extra_color364"},"365":{"color":"#2B9748","border":"#2B9748","pos":365,"var_name":"extra_color365"},"366":{"color":"#AC7B3B","border":"#AC7B3B","pos":366,"var_name":"extra_color366"},"367":{"color":"#10463E","border":"#10463E","pos":367,"var_name":"extra_color367"},"368":{"color":"#9F374D","border":"#9F374D","pos":368,"var_name":"extra_color368"},"369":{"color":"#93325B","border":"#93325B","pos":369,"var_name":"extra_color369"},"370":{"color":"#195457","border":"#195457","pos":370,"var_name":"extra_color370"},"371":{"color":"#0D2A5A","border":"#0D2A5A","pos":371,"var_name":"extra_color371"},"372":{"color":"#9D2721","border":"#9D2721","pos":372,"var_name":"extra_color372"},"373":{"color":"#279D2E","border":"#279D2E","pos":373,"var_name":"extra_color373"},"374":{"color":"#40739A","border":"#40739A","pos":374,"var_name":"extra_color374"},"375":{"color":"#AC5A3B","border":"#AC5A3B","pos":375,"var_name":"extra_color375"},"376":{"color":"#16954A","border":"#16954A","pos":376,"var_name":"extra_color376"},"377":{"color":"#768A27","border":"#768A27","pos":377,"var_name":"extra_color377"},"378":{"color":"#6DB646","border":"#6DB646","pos":378,"var_name":"extra_color378"},"379":{"color":"#C85A31","border":"#C85A31","pos":379,"var_name":"extra_color379"},"380":{"color":"#EF935A","border":"#EF935A","pos":380,"var_name":"extra_color380"},"381":{"color":"#7B2348","border":"#7B2348","pos":381,"var_name":"extra_color381"},"382":{"color":"#679B35","border":"#679B35","pos":382,"var_name":"extra_color382"},"383":{"color":"#7B1A57","border":"#7B1A57","pos":383,"var_name":"extra_color383"},"384":{"color":"#983456","border":"#983456","pos":384,"var_name":"extra_color384"},"385":{"color":"#006B53","border":"#006B53","pos":385,"var_name":"extra_color385"},"386":{"color":"#AC6F3B","border":"#AC6F3B","pos":386,"var_name":"extra_color386"},"387":{"color":"#146E5A","border":"#146E5A","pos":387,"var_name":"extra_color387"},"388":{"color":"#D18B50","border":"#D18B50","pos":388,"var_name":"extra_color388"},"389":{"color":"#0F1C72","border":"#0F1C72","pos":389,"var_name":"extra_color389"},"390":{"color":"#CB4B3A","border":"#CB4B3A","pos":390,"var_name":"extra_color390"},"391":{"color":"#3A9A85","border":"#3A9A85","pos":391,"var_name":"extra_color391"},"392":{"color":"#88A438","border":"#88A438","pos":392,"var_name":"extra_color392"},"393":{"color":"#AB541F","border":"#AB541F","pos":393,"var_name":"extra_color393"},"394":{"color":"#CF241F","border":"#CF241F","pos":394,"var_name":"extra_color394"},"395":{"color":"#812C69","border":"#812C69","pos":395,"var_name":"extra_color395"},"396":{"color":"#143247","border":"#143247","pos":396,"var_name":"extra_color396"},"397":{"color":"#AB6F1F","border":"#AB6F1F","pos":397,"var_name":"extra_color397"},"398":{"color":"#9D7121","border":"#9D7121","pos":398,"var_name":"extra_color398"},"399":{"color":"#641D5B","border":"#641D5B","pos":399,"var_name":"extra_color399"},"400":{"color":"#EFAF5A","border":"#EFAF5A","pos":400,"var_name":"extra_color400"},"401":{"color":"#D6B257","border":"#D6B257","pos":401,"var_name":"extra_color401"},"402":{"color":"#236767","border":"#236767","pos":402,"var_name":"extra_color402"},"403":{"color":"#1A496E","border":"#1A496E","pos":403,"var_name":"extra_color403"},"404":{"color":"#7C005A","border":"#7C005A","pos":404,"var_name":"extra_color404"},"405":{"color":"#E68E45","border":"#E68E45","pos":405,"var_name":"extra_color405"},"406":{"color":"#145E5E","border":"#145E5E","pos":406,"var_name":"extra_color406"},"407":{"color":"#4D1246","border":"#4D1246","pos":407,"var_name":"extra_color407"},"408":{"color":"#ACCB52","border":"#ACCB52","pos":408,"var_name":"extra_color408"},"409":{"color":"#124D32","border":"#124D32","pos":409,"var_name":"extra_color409"},"410":{"color":"#BFE356","border":"#BFE356","pos":410,"var_name":"extra_color410"},"411":{"color":"#42891D","border":"#42891D","pos":411,"var_name":"extra_color411"},"412":{"color":"#CF4F1F","border":"#CF4F1F","pos":412,"var_name":"extra_color412"},"413":{"color":"#6F2A1A","border":"#6F2A1A","pos":413,"var_name":"extra_color413"},"414":{"color":"#A64000","border":"#A64000","pos":414,"var_name":"extra_color414"},"415":{"color":"#14787D","border":"#14787D","pos":415,"var_name":"extra_color415"},"416":{"color":"#9D5A21","border":"#9D5A21","pos":416,"var_name":"extra_color416"},"417":{"color":"#884308","border":"#884308","pos":417,"var_name":"extra_color417"},"418":{"color":"#A04186","border":"#A04186","pos":418,"var_name":"extra_color418"},"419":{"color":"#B01B5A","border":"#B01B5A","pos":419,"var_name":"extra_color419"}};
+</script>
+<!-- end cross board stuffs -->
+
+  <script>
+	window.MutationObserver || document.write(unescape('%3Cscript%20src%3D%22https%3A%2F%2Fcdn7.monday.com%2Fassets%2Flib%2Fmutation-observer-polyfill-a12aed82194fde6faa3641fdd771a0c70ec6dde9b297fa96c805b0c4af491c08.js%22%3E%3C%2Fscript%3E'))
+</script>
+
+<script>
+  if (typeof localStorage === 'object') {
+    try {
+      localStorage.setItem('localStorage', 1);
+      localStorage.removeItem('localStorage');
+    } catch (e) {
+      Storage.prototype._setItem = Storage.prototype.setItem;
+      Storage.prototype.setItem = function() {};
+    }
+  }
+
+	if (!String.prototype.startsWith) {
+    String.prototype.startsWith = function(searchString, position) {
+      return this.substr(position || 0, searchString.length) === searchString;
+  	};
+	}
+</script>
+
+<script>
+if (!Array.prototype.includes) {
+  Object.defineProperty(Array.prototype, 'includes', {
+    value: function(searchElement, fromIndex) {
+
+      if (this == null) {
+        throw new TypeError('"this" is null or not defined');
+      }
+
+      var o = Object(this);
+
+      var len = o.length >>> 0;
+
+      if (len === 0) {
+        return false;
+      }
+
+      var n = fromIndex | 0;
+
+      var k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+
+      function sameValueZero(x, y) {
+        return x === y || (typeof x === 'number' && typeof y === 'number' && isNaN(x) && isNaN(y));
+      }
+
+      while (k < len) {
+        if (sameValueZero(o[k], searchElement)) {
+          return true;
+        }
+        k++;
+      }
+
+      return false;
+    }
+  });
+}
+</script>
+
+<script>
+// Polyfill for element.remove() for IE9+ (used by dialog.jsx)
+// from:https://github.com/jserz/js_piece/blob/master/DOM/ChildNode/remove()/remove().md
+(function (arr) {
+  arr.forEach(function (item) {
+    if (item.hasOwnProperty('remove')) {
+      return;
+    }
+    Object.defineProperty(item, 'remove', {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function remove() {
+        this.parentNode.removeChild(this);
+      }
+    });
+  });
+})([Element.prototype, CharacterData.prototype, DocumentType.prototype]);
+</script>
+
+<script>
+//Polyfill for Number.isInteger
+//taken from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
+Number.isInteger = Number.isInteger || function(value) {
+  return typeof value === 'number' &&
+    isFinite(value) &&
+    Math.floor(value) === value;
+};
+</script>
+
+<script>
+	if (!Object.values) {
+		Object.values = function values(obj) {
+			return Object.keys(obj).map(function(key) {
+				return obj[key]
+			})
+		}
+	}
+</script>
+
+<script>
+  // Polyfill for Array.find
+  // https://tc39.github.io/ecma262/#sec-array.prototype.find
+  if (!Array.prototype.find) {
+    Object.defineProperty(Array.prototype, 'find', {
+      value: function(predicate) {
+      // 1. Let O be ? ToObject(this value).
+        if (this == null) {
+          throw new TypeError('"this" is null or not defined');
+        }
+
+        var o = Object(this);
+
+        // 2. Let len be ? ToLength(? Get(O, "length")).
+        var len = o.length >>> 0;
+
+        // 3. If IsCallable(predicate) is false, throw a TypeError exception.
+        if (typeof predicate !== 'function') {
+          throw new TypeError('predicate must be a function');
+        }
+
+        // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.
+        var thisArg = arguments[1];
+
+        // 5. Let k be 0.
+        var k = 0;
+
+        // 6. Repeat, while k < len
+        while (k < len) {
+          // a. Let Pk be ! ToString(k).
+          // b. Let kValue be ? Get(O, Pk).
+          // c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).
+          // d. If testResult is true, return kValue.
+          var kValue = o[k];
+          if (predicate.call(thisArg, kValue, k, o)) {
+            return kValue;
+          }
+          // e. Increase k by 1.
+          k++;
+        }
+
+        // 7. Return undefined.
+        return undefined;
+      },
+      configurable: true,
+      writable: true
+    });
+  }
+</script>
+
+<script>
+  // Polyfill for Object.entries
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries#Polyfill
+  if (!Object.entries) {
+    Object.entries = function(obj){
+      var ownProps = Object.keys(obj),
+          i = ownProps.length,
+          resArray = new Array(i); // preallocate the Array
+      while (i--)
+        resArray[i] = [ownProps[i], obj[ownProps[i]]];
+
+      return resArray;
+    };
+  }
+</script>
+
+  <script>
+  window.BigBrainQ = window.BigBrainQ || [];
+  window.BigBrain = window.BigBrain || function(){
+    args = Array.prototype.slice.call(arguments)
+    if(args[0] == 'track'){
+      event_props = {}
+      if(args.length == 3)
+        event_props = args[2];
+      event_props['timestamp'] = parseInt(new Date().getTime()/1000);
+      if(args.length == 2) args.push(event_props);
+      else args[2] = event_props;
+    }
+    window.BigBrainQ.push(args);
+  };
+
+  (function(d,u,callback){
+    if (window.BigBrainInit) return;
+    window.BigBrainInit = true;
+    var s = d.createElement('script');
+    s.type = 'text/javascript'
+    s.src = u;
+    s.async = true;
+    s.onreadystatechange = s.onload = function(){
+      var st = s.readyState;
+      if (!callback.done && (!st || /loaded|complete/.test(st))) {
+        callback.done = true;
+        callback();
+      }
+    };
+    (d.body || d.head).appendChild(s);
+  })(document, "https://d18vk66ftlazd2.cloudfront.net/bigbrain-1.0.min.js", function(){
+      var init = { bigbrain_url:  "https://track.bigbrain.me/prod", sync_interval: 10000 };
+        
+    init['pulse_account_id'] = "3857307"
+
+      window.BigBrain = new BigBrainTracker(init);
+  });
+</script><script type="text/javascript" src="./bigbrain-1.0.min.js" async=""></script>
+
+        <link rel="stylesheet" media="all" href="./forms-3b685f4c8ff99229ab87.css">
+
+<style>.ds-text-primary {
+  color: #009AFF; }
+
+.ds-text-shareable {
+  color: #a25ddc; }
+
+.ds-text-private {
+  color: #f6577c; }
+
+.ds-text-alert {
+  color: #e44258; }
+
+.ds-text-success {
+  color: #00ca72; }
+
+.ds-text-white {
+  color: #ffffff; }
+
+.ds-text-dark-blue {
+  color: #0188E1; }
+
+.ds-text-basic-blue {
+  color: #009AFF; }
+
+.ds-text-light-blue {
+  color: #61caf7; }
+
+.ds-text-link-blue {
+  color: #256bc9; }
+
+.ds-text-done-green {
+  color: #00ca72; }
+
+.ds-text-acid-green {
+  color: #00efa4; }
+
+.ds-text-grass-green {
+  color: #037f4c; }
+
+.ds-text-dark-purple {
+  color: #839dc5; }
+
+.ds-text-purple {
+  color: #a25ddc; }
+
+.ds-text-stuck-red {
+  color: #e44258; }
+
+.ds-text-bazooka {
+  color: #f6577c; }
+
+.ds-text-working-orange {
+  color: #fdab3d; }
+
+.ds-text-egg-yolk {
+  color: #ffcb00; }
+
+.ds-text-jeans {
+  color: #597bfc; }
+
+.ds-text-poop {
+  color: #cab641; }
+
+.ds-text-blackish {
+  color: #333333; }
+
+.ds-text-american-gray {
+  color: #808080; }
+
+.ds-text-explosive {
+  color: #c4c4c4; }
+
+.ds-text-dark-marble {
+  color: #f1f1f1; }
+
+.ds-text-marble {
+  color: #f7f7f7; }
+
+body {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 300; }
+
+@-webkit-keyframes spin_accel {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
+  5%,
+  65% {
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
+  10%,
+  59% {
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em; }
+  20% {
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em; }
+  38% {
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em; }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; } }
+
+@keyframes spin_accel {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
+  5%,
+  65% {
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
+  10%,
+  59% {
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em; }
+  20% {
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em; }
+  38% {
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em; }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; } }
+
+.ds-btn {
+  display: inline-block;
+  font-weight: 300;
+  line-height: 1.25;
+  font-family: "Roboto";
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  padding: 0.641rem 2rem;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  height: 2.50908rem;
+  border-radius: 15rem;
+  -webkit-transition: padding-left 0.35s cubic-bezier(0.19, 1, 0.22, 1), padding-right 0.35s cubic-bezier(0.19, 1, 0.22, 1), color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+  -o-transition: padding-left 0.35s cubic-bezier(0.19, 1, 0.22, 1), padding-right 0.35s cubic-bezier(0.19, 1, 0.22, 1), color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+  transition: padding-left 0.35s cubic-bezier(0.19, 1, 0.22, 1), padding-right 0.35s cubic-bezier(0.19, 1, 0.22, 1), color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out; }
+  .ds-btn .ds-i {
+    margin-left: -0.29167rem;
+    margin-right: 0.14583rem; }
+    .ds-btn .ds-i.right {
+      margin-right: -0.29167rem;
+      margin-left: 0.14583rem; }
+  .ds-btn .loader {
+    font-size: 0.677rem;
+    min-width: 0.677rem;
+    height: 0.677rem;
+    margin: 0.677rem 0.677rem; }
+  .ds-btn:focus, .ds-btn.focus, .ds-btn:active:focus, .ds-btn:active.focus, .ds-btn.active:focus, .ds-btn.active.focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+  .ds-btn:focus {
+    text-decoration: none; }
+  .ds-btn:hover {
+    text-decoration: none; }
+  .ds-btn.focus {
+    text-decoration: none; }
+  .ds-btn:active, .ds-btn.active {
+    background-image: none;
+    outline: 0; }
+  .ds-btn.disabled, .ds-btn:disabled {
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
+a.ds-btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none; }
+
+.ds-btn-primary {
+  outline: none;
+  color: #fff;
+  background-color: #009AFF;
+  border-color: #009AFF;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .ds-btn-primary:hover {
+    outline: none;
+    color: #fff;
+    background-color: #0083d9;
+    border-color: #0083d9; }
+  .ds-btn-primary:focus, .ds-btn-primary.focus {
+    outline: none; }
+  .ds-btn-primary:active, .ds-btn-primary.active {
+    outline: none;
+    color: #fff;
+    background-color: #0083d9;
+    border-color: #0083d9;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    background-image: none; }
+    .ds-btn-primary:active:hover, .ds-btn-primary:active:focus, .ds-btn-primary:active.focus, .ds-btn-primary.active:hover, .ds-btn-primary.active:focus, .ds-btn-primary.active.focus {
+      outline: none;
+      color: #fff;
+      background-color: #007bcc;
+      border-color: #007bcc; }
+  .ds-btn-primary.disabled, .ds-btn-primary:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-primary.disabled:focus, .ds-btn-primary.disabled.focus, .ds-btn-primary:disabled:focus, .ds-btn-primary:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-primary.disabled:hover, .ds-btn-primary:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-secondary {
+  font-weight: 300;
+  color: #009AFF;
+  border-radius: 0;
+  outline: none; }
+  .ds-btn-secondary, .ds-btn-secondary:active, .ds-btn-secondary.active, .ds-btn-secondary:disabled {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none; }
+  .ds-btn-secondary, .ds-btn-secondary:focus, .ds-btn-secondary:active {
+    border-color: transparent;
+    outline: none; }
+  .ds-btn-secondary:active, .ds-btn-secondary.active {
+    color: #333333; }
+    .ds-btn-secondary:active:focus, .ds-btn-secondary:active.focus, .ds-btn-secondary.active:focus, .ds-btn-secondary.active.focus {
+      outline: none; }
+  .ds-btn-secondary:hover {
+    color: #333333;
+    border-color: transparent;
+    outline: none; }
+  .ds-btn-secondary:focus {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none; }
+  .ds-btn-secondary:hover {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none; }
+  .ds-btn-secondary:disabled:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    outline: none; }
+  .ds-btn-secondary:disabled:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+    outline: none; }
+
+.ds-btn-shareable {
+  outline: none;
+  color: #fff;
+  background-color: #a25ddc;
+  border-color: #a25ddc;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .ds-btn-shareable:hover {
+    outline: none;
+    color: #fff;
+    background-color: #8c36d4;
+    border-color: #8c36d4; }
+  .ds-btn-shareable:focus, .ds-btn-shareable.focus {
+    outline: none; }
+  .ds-btn-shareable:active, .ds-btn-shareable.active {
+    outline: none;
+    color: #fff;
+    background-color: #8c36d4;
+    border-color: #8c36d4;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    background-image: none; }
+    .ds-btn-shareable:active:hover, .ds-btn-shareable:active:focus, .ds-btn-shareable:active.focus, .ds-btn-shareable.active:hover, .ds-btn-shareable.active:focus, .ds-btn-shareable.active.focus {
+      outline: none;
+      color: #fff;
+      background-color: #842cce;
+      border-color: #842cce; }
+  .ds-btn-shareable.disabled, .ds-btn-shareable:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-shareable.disabled:focus, .ds-btn-shareable.disabled.focus, .ds-btn-shareable:disabled:focus, .ds-btn-shareable:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-shareable.disabled:hover, .ds-btn-shareable:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-private {
+  outline: none;
+  color: #fff;
+  background-color: #f6577c;
+  border-color: #f6577c;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .ds-btn-private:hover {
+    outline: none;
+    color: #fff;
+    background-color: #f32857;
+    border-color: #f32857; }
+  .ds-btn-private:focus, .ds-btn-private.focus {
+    outline: none; }
+  .ds-btn-private:active, .ds-btn-private.active {
+    outline: none;
+    color: #fff;
+    background-color: #f32857;
+    border-color: #f32857;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    background-image: none; }
+    .ds-btn-private:active:hover, .ds-btn-private:active:focus, .ds-btn-private:active.focus, .ds-btn-private.active:hover, .ds-btn-private.active:focus, .ds-btn-private.active.focus {
+      outline: none;
+      color: #fff;
+      background-color: #f3184b;
+      border-color: #f3184b; }
+  .ds-btn-private.disabled, .ds-btn-private:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-private.disabled:focus, .ds-btn-private.disabled.focus, .ds-btn-private:disabled:focus, .ds-btn-private:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-private.disabled:hover, .ds-btn-private:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-alert {
+  outline: none;
+  color: #fff;
+  background-color: #e44258;
+  border-color: #e44258;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .ds-btn-alert:hover {
+    outline: none;
+    color: #fff;
+    background-color: #db1f39;
+    border-color: #db1f39; }
+  .ds-btn-alert:focus, .ds-btn-alert.focus {
+    outline: none; }
+  .ds-btn-alert:active, .ds-btn-alert.active {
+    outline: none;
+    color: #fff;
+    background-color: #db1f39;
+    border-color: #db1f39;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    background-image: none; }
+    .ds-btn-alert:active:hover, .ds-btn-alert:active:focus, .ds-btn-alert:active.focus, .ds-btn-alert.active:hover, .ds-btn-alert.active:focus, .ds-btn-alert.active.focus {
+      outline: none;
+      color: #fff;
+      background-color: #ce1d35;
+      border-color: #ce1d35; }
+  .ds-btn-alert.disabled, .ds-btn-alert:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-alert.disabled:focus, .ds-btn-alert.disabled.focus, .ds-btn-alert:disabled:focus, .ds-btn-alert:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-alert.disabled:hover, .ds-btn-alert:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-success {
+  outline: none;
+  color: #fff;
+  background-color: #00ca72;
+  border-color: #00ca72;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .ds-btn-success:hover {
+    outline: none;
+    color: #fff;
+    background-color: #00ac61;
+    border-color: #00ac61; }
+  .ds-btn-success:focus, .ds-btn-success.focus {
+    outline: none; }
+  .ds-btn-success:active, .ds-btn-success.active {
+    outline: none;
+    color: #fff;
+    background-color: #00ac61;
+    border-color: #00ac61;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    background-image: none; }
+    .ds-btn-success:active:hover, .ds-btn-success:active:focus, .ds-btn-success:active.focus, .ds-btn-success.active:hover, .ds-btn-success.active:focus, .ds-btn-success.active.focus {
+      outline: none;
+      color: #fff;
+      background-color: #00a25b;
+      border-color: #00a25b; }
+  .ds-btn-success.disabled, .ds-btn-success:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-success.disabled:focus, .ds-btn-success.disabled.focus, .ds-btn-success:disabled:focus, .ds-btn-success:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-success.disabled:hover, .ds-btn-success:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-blackish {
+  outline: none;
+  color: #fff;
+  background-color: #333333;
+  border-color: #333333;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .ds-btn-blackish:hover {
+    outline: none;
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: #2b2b2b; }
+  .ds-btn-blackish:focus, .ds-btn-blackish.focus {
+    outline: none; }
+  .ds-btn-blackish:active, .ds-btn-blackish.active {
+    outline: none;
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: #2b2b2b;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    background-image: none; }
+    .ds-btn-blackish:active:hover, .ds-btn-blackish:active:focus, .ds-btn-blackish:active.focus, .ds-btn-blackish.active:hover, .ds-btn-blackish.active:focus, .ds-btn-blackish.active.focus {
+      outline: none;
+      color: #fff;
+      background-color: #292929;
+      border-color: #292929; }
+  .ds-btn-blackish.disabled, .ds-btn-blackish:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-blackish.disabled:focus, .ds-btn-blackish.disabled.focus, .ds-btn-blackish:disabled:focus, .ds-btn-blackish:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-blackish.disabled:hover, .ds-btn-blackish:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-outline-primary {
+  color: #009AFF;
+  background-image: none;
+  background-color: transparent;
+  border-color: #009AFF; }
+  .ds-btn-outline-primary:hover {
+    color: #009AFF;
+    background-color: #ccebff;
+    border-color: #009AFF; }
+  .ds-btn-outline-primary:focus, .ds-btn-outline-primary.focus {
+    outline: none; }
+  .ds-btn-outline-primary:active, .ds-btn-outline-primary.active,
+  .open > .ds-btn-outline-primary.ds-dropdown-toggle {
+    outline: none;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    color: #009AFF;
+    background-color: #ccebff;
+    border-color: #009AFF; }
+    .ds-btn-outline-primary:active:hover, .ds-btn-outline-primary:active:focus, .ds-btn-outline-primary:active.focus, .ds-btn-outline-primary.active:hover, .ds-btn-outline-primary.active:focus, .ds-btn-outline-primary.active.focus,
+    .open > .ds-btn-outline-primary.ds-dropdown-toggle:hover,
+    .open > .ds-btn-outline-primary.ds-dropdown-toggle:focus,
+    .open > .ds-btn-outline-primary.ds-dropdown-toggle.focus {
+      outline: none;
+      color: #009AFF;
+      background-color: #b3e1ff;
+      border-color: #009AFF; }
+  .ds-btn-outline-primary.disabled, .ds-btn-outline-primary:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-outline-primary.disabled:focus, .ds-btn-outline-primary.disabled.focus, .ds-btn-outline-primary:disabled:focus, .ds-btn-outline-primary:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-outline-primary.disabled:hover, .ds-btn-outline-primary:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-outline-secondary {
+  color: transparent;
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent; }
+  .ds-btn-outline-secondary:hover {
+    color: transparent;
+    background-color: rgba(204, 204, 204, 0);
+    border-color: transparent; }
+  .ds-btn-outline-secondary:focus, .ds-btn-outline-secondary.focus {
+    outline: none; }
+  .ds-btn-outline-secondary:active, .ds-btn-outline-secondary.active,
+  .open > .ds-btn-outline-secondary.ds-dropdown-toggle {
+    outline: none;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    color: transparent;
+    background-color: rgba(204, 204, 204, 0);
+    border-color: transparent; }
+    .ds-btn-outline-secondary:active:hover, .ds-btn-outline-secondary:active:focus, .ds-btn-outline-secondary:active.focus, .ds-btn-outline-secondary.active:hover, .ds-btn-outline-secondary.active:focus, .ds-btn-outline-secondary.active.focus,
+    .open > .ds-btn-outline-secondary.ds-dropdown-toggle:hover,
+    .open > .ds-btn-outline-secondary.ds-dropdown-toggle:focus,
+    .open > .ds-btn-outline-secondary.ds-dropdown-toggle.focus {
+      outline: none;
+      color: transparent;
+      background-color: rgba(179, 179, 179, 0);
+      border-color: transparent; }
+  .ds-btn-outline-secondary.disabled, .ds-btn-outline-secondary:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-outline-secondary.disabled:focus, .ds-btn-outline-secondary.disabled.focus, .ds-btn-outline-secondary:disabled:focus, .ds-btn-outline-secondary:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-outline-secondary.disabled:hover, .ds-btn-outline-secondary:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-outline-shareable {
+  color: #a25ddc;
+  background-image: none;
+  background-color: transparent;
+  border-color: #a25ddc; }
+  .ds-btn-outline-shareable:hover {
+    color: #a25ddc;
+    background-color: #ecdff8;
+    border-color: #a25ddc; }
+  .ds-btn-outline-shareable:focus, .ds-btn-outline-shareable.focus {
+    outline: none; }
+  .ds-btn-outline-shareable:active, .ds-btn-outline-shareable.active,
+  .open > .ds-btn-outline-shareable.ds-dropdown-toggle {
+    outline: none;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    color: #a25ddc;
+    background-color: #ecdff8;
+    border-color: #a25ddc; }
+    .ds-btn-outline-shareable:active:hover, .ds-btn-outline-shareable:active:focus, .ds-btn-outline-shareable:active.focus, .ds-btn-outline-shareable.active:hover, .ds-btn-outline-shareable.active:focus, .ds-btn-outline-shareable.active.focus,
+    .open > .ds-btn-outline-shareable.ds-dropdown-toggle:hover,
+    .open > .ds-btn-outline-shareable.ds-dropdown-toggle:focus,
+    .open > .ds-btn-outline-shareable.ds-dropdown-toggle.focus {
+      outline: none;
+      color: #a25ddc;
+      background-color: #e3cef5;
+      border-color: #a25ddc; }
+  .ds-btn-outline-shareable.disabled, .ds-btn-outline-shareable:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-outline-shareable.disabled:focus, .ds-btn-outline-shareable.disabled.focus, .ds-btn-outline-shareable:disabled:focus, .ds-btn-outline-shareable:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-outline-shareable.disabled:hover, .ds-btn-outline-shareable:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-outline-private {
+  color: #f6577c;
+  background-image: none;
+  background-color: transparent;
+  border-color: #f6577c; }
+  .ds-btn-outline-private:hover {
+    color: #f6577c;
+    background-color: #fddde5;
+    border-color: #f6577c; }
+  .ds-btn-outline-private:focus, .ds-btn-outline-private.focus {
+    outline: none; }
+  .ds-btn-outline-private:active, .ds-btn-outline-private.active,
+  .open > .ds-btn-outline-private.ds-dropdown-toggle {
+    outline: none;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    color: #f6577c;
+    background-color: #fddde5;
+    border-color: #f6577c; }
+    .ds-btn-outline-private:active:hover, .ds-btn-outline-private:active:focus, .ds-btn-outline-private:active.focus, .ds-btn-outline-private.active:hover, .ds-btn-outline-private.active:focus, .ds-btn-outline-private.active.focus,
+    .open > .ds-btn-outline-private.ds-dropdown-toggle:hover,
+    .open > .ds-btn-outline-private.ds-dropdown-toggle:focus,
+    .open > .ds-btn-outline-private.ds-dropdown-toggle.focus {
+      outline: none;
+      color: #f6577c;
+      background-color: #fccdd8;
+      border-color: #f6577c; }
+  .ds-btn-outline-private.disabled, .ds-btn-outline-private:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-outline-private.disabled:focus, .ds-btn-outline-private.disabled.focus, .ds-btn-outline-private:disabled:focus, .ds-btn-outline-private:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-outline-private.disabled:hover, .ds-btn-outline-private:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-outline-alert {
+  color: #e44258;
+  background-image: none;
+  background-color: transparent;
+  border-color: #e44258; }
+  .ds-btn-outline-alert:hover {
+    color: #e44258;
+    background-color: #fad9de;
+    border-color: #e44258; }
+  .ds-btn-outline-alert:focus, .ds-btn-outline-alert.focus {
+    outline: none; }
+  .ds-btn-outline-alert:active, .ds-btn-outline-alert.active,
+  .open > .ds-btn-outline-alert.ds-dropdown-toggle {
+    outline: none;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    color: #e44258;
+    background-color: #fad9de;
+    border-color: #e44258; }
+    .ds-btn-outline-alert:active:hover, .ds-btn-outline-alert:active:focus, .ds-btn-outline-alert:active.focus, .ds-btn-outline-alert.active:hover, .ds-btn-outline-alert.active:focus, .ds-btn-outline-alert.active.focus,
+    .open > .ds-btn-outline-alert.ds-dropdown-toggle:hover,
+    .open > .ds-btn-outline-alert.ds-dropdown-toggle:focus,
+    .open > .ds-btn-outline-alert.ds-dropdown-toggle.focus {
+      outline: none;
+      color: #e44258;
+      background-color: #f7c6cd;
+      border-color: #e44258; }
+  .ds-btn-outline-alert.disabled, .ds-btn-outline-alert:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-outline-alert.disabled:focus, .ds-btn-outline-alert.disabled.focus, .ds-btn-outline-alert:disabled:focus, .ds-btn-outline-alert:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-outline-alert.disabled:hover, .ds-btn-outline-alert:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-outline-success {
+  color: #00ca72;
+  background-image: none;
+  background-color: transparent;
+  border-color: #00ca72; }
+  .ds-btn-outline-success:hover {
+    color: #00ca72;
+    background-color: #c1ffe4;
+    border-color: #00ca72; }
+  .ds-btn-outline-success:focus, .ds-btn-outline-success.focus {
+    outline: none; }
+  .ds-btn-outline-success:active, .ds-btn-outline-success.active,
+  .open > .ds-btn-outline-success.ds-dropdown-toggle {
+    outline: none;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    color: #00ca72;
+    background-color: #c1ffe4;
+    border-color: #00ca72; }
+    .ds-btn-outline-success:active:hover, .ds-btn-outline-success:active:focus, .ds-btn-outline-success:active.focus, .ds-btn-outline-success.active:hover, .ds-btn-outline-success.active:focus, .ds-btn-outline-success.active.focus,
+    .open > .ds-btn-outline-success.ds-dropdown-toggle:hover,
+    .open > .ds-btn-outline-success.ds-dropdown-toggle:focus,
+    .open > .ds-btn-outline-success.ds-dropdown-toggle.focus {
+      outline: none;
+      color: #00ca72;
+      background-color: #a3ffd7;
+      border-color: #00ca72; }
+  .ds-btn-outline-success.disabled, .ds-btn-outline-success:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-outline-success.disabled:focus, .ds-btn-outline-success.disabled.focus, .ds-btn-outline-success:disabled:focus, .ds-btn-outline-success:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-outline-success.disabled:hover, .ds-btn-outline-success:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-outline-blackish {
+  color: #333333;
+  background-image: none;
+  background-color: transparent;
+  border-color: #333333; }
+  .ds-btn-outline-blackish:hover {
+    color: #333333;
+    background-color: #d6d6d6;
+    border-color: #333333; }
+  .ds-btn-outline-blackish:focus, .ds-btn-outline-blackish.focus {
+    outline: none; }
+  .ds-btn-outline-blackish:active, .ds-btn-outline-blackish.active,
+  .open > .ds-btn-outline-blackish.ds-dropdown-toggle {
+    outline: none;
+    -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+            transform: scale(0.97);
+    color: #333333;
+    background-color: #d6d6d6;
+    border-color: #333333; }
+    .ds-btn-outline-blackish:active:hover, .ds-btn-outline-blackish:active:focus, .ds-btn-outline-blackish:active.focus, .ds-btn-outline-blackish.active:hover, .ds-btn-outline-blackish.active:focus, .ds-btn-outline-blackish.active.focus,
+    .open > .ds-btn-outline-blackish.ds-dropdown-toggle:hover,
+    .open > .ds-btn-outline-blackish.ds-dropdown-toggle:focus,
+    .open > .ds-btn-outline-blackish.ds-dropdown-toggle.focus {
+      outline: none;
+      color: #333333;
+      background-color: #c2c2c2;
+      border-color: #333333; }
+  .ds-btn-outline-blackish.disabled, .ds-btn-outline-blackish:disabled {
+    cursor: arrow;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #808080;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .ds-btn-outline-blackish.disabled:focus, .ds-btn-outline-blackish.disabled.focus, .ds-btn-outline-blackish:disabled:focus, .ds-btn-outline-blackish:disabled.focus {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1; }
+    .ds-btn-outline-blackish.disabled:hover, .ds-btn-outline-blackish:disabled:hover {
+      background-color: #f1f1f1;
+      border-color: #f1f1f1;
+      color: #808080; }
+
+.ds-btn-link {
+  font-weight: 300;
+  color: #009AFF;
+  border-radius: 0; }
+  .ds-btn-link, .ds-btn-link:active, .ds-btn-link.active, .ds-btn-link:disabled {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .ds-btn-link, .ds-btn-link:focus, .ds-btn-link:active {
+    border-color: transparent; }
+  .ds-btn-link:hover {
+    border-color: transparent; }
+  .ds-btn-link:focus {
+    color: #006cb3;
+    text-decoration: underline;
+    background-color: transparent; }
+  .ds-btn-link:hover {
+    color: #006cb3;
+    text-decoration: underline;
+    background-color: transparent; }
+  .ds-btn-link:disabled:focus {
+    color: #f1f1f1;
+    text-decoration: none; }
+  .ds-btn-link:disabled:hover {
+    color: #f1f1f1;
+    text-decoration: none; }
+
+.ds-btn-lg {
+  padding: 0.891rem 2.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  height: 3.00908rem;
+  border-radius: 15rem; }
+  .ds-btn-lg .loader {
+    font-size: 0.9rem;
+    min-width: 0.9rem;
+    height: 0.9rem;
+    margin: 0.9rem 0.9rem; }
+
+.ds-btn-sm {
+  padding: 0.391rem 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  height: 2.00908rem;
+  border-radius: 15rem; }
+  .ds-btn-sm .loader {
+    font-size: 0.575rem;
+    min-width: 0.575rem;
+    height: 0.575rem;
+    margin: 0.575rem 0.575rem; }
+
+.ds-btn-block {
+  display: block;
+  width: 100%; }
+
+.ds-btn-block + .ds-btn-block {
+  margin-top: 0.5rem; }
+
+input[type="submit"].ds-btn-block,
+input[type="reset"].ds-btn-block,
+input[type="button"].ds-btn-block {
+  width: 100%; }
+
+.ds-btn-success-mode {
+  cursor: default;
+  background-color: #00ca72;
+  border-color: #00ca72;
+  color: #fff;
+  outline: none; }
+  .ds-btn-success-mode:hover {
+    outline: none; }
+  .ds-btn-success-mode:focus, .ds-btn-success-mode.focus {
+    outline: none; }
+  .ds-btn-success-mode:active, .ds-btn-success-mode.active {
+    outline: none; }
+    .ds-btn-success-mode:active:hover, .ds-btn-success-mode:active:focus, .ds-btn-success-mode:active.focus, .ds-btn-success-mode.active:hover, .ds-btn-success-mode.active:focus, .ds-btn-success-mode.active.focus {
+      outline: none; }
+
+.ds-btn-primary-loading {
+  outline: none;
+  color: #fff;
+  cursor: default;
+  background-color: #009AFF;
+  border-color: #009AFF;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-primary-loading:focus, .ds-btn-primary-loading.focus {
+    outline: none; }
+  .ds-btn-primary-loading:active, .ds-btn-primary-loading.active {
+    outline: none; }
+    .ds-btn-primary-loading:active:hover, .ds-btn-primary-loading:active:focus, .ds-btn-primary-loading:active.focus, .ds-btn-primary-loading.active:hover, .ds-btn-primary-loading.active:focus, .ds-btn-primary-loading.active.focus {
+      outline: none; }
+  .ds-btn-primary-loading .loader {
+    color: #fff;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-secondary-loading {
+  outline: none;
+  color: #009AFF;
+  cursor: default;
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-secondary-loading:focus, .ds-btn-secondary-loading.focus {
+    outline: none; }
+  .ds-btn-secondary-loading:active, .ds-btn-secondary-loading.active {
+    outline: none; }
+    .ds-btn-secondary-loading:active:hover, .ds-btn-secondary-loading:active:focus, .ds-btn-secondary-loading:active.focus, .ds-btn-secondary-loading.active:hover, .ds-btn-secondary-loading.active:focus, .ds-btn-secondary-loading.active.focus {
+      outline: none; }
+  .ds-btn-secondary-loading .loader {
+    color: #009AFF;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-shareable-loading {
+  outline: none;
+  color: #fff;
+  cursor: default;
+  background-color: #a25ddc;
+  border-color: #a25ddc;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-shareable-loading:focus, .ds-btn-shareable-loading.focus {
+    outline: none; }
+  .ds-btn-shareable-loading:active, .ds-btn-shareable-loading.active {
+    outline: none; }
+    .ds-btn-shareable-loading:active:hover, .ds-btn-shareable-loading:active:focus, .ds-btn-shareable-loading:active.focus, .ds-btn-shareable-loading.active:hover, .ds-btn-shareable-loading.active:focus, .ds-btn-shareable-loading.active.focus {
+      outline: none; }
+  .ds-btn-shareable-loading .loader {
+    color: #fff;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-private-loading {
+  outline: none;
+  color: #fff;
+  cursor: default;
+  background-color: #f6577c;
+  border-color: #f6577c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-private-loading:focus, .ds-btn-private-loading.focus {
+    outline: none; }
+  .ds-btn-private-loading:active, .ds-btn-private-loading.active {
+    outline: none; }
+    .ds-btn-private-loading:active:hover, .ds-btn-private-loading:active:focus, .ds-btn-private-loading:active.focus, .ds-btn-private-loading.active:hover, .ds-btn-private-loading.active:focus, .ds-btn-private-loading.active.focus {
+      outline: none; }
+  .ds-btn-private-loading .loader {
+    color: #fff;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-alert-loading {
+  outline: none;
+  color: #fff;
+  cursor: default;
+  background-color: #e44258;
+  border-color: #e44258;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-alert-loading:focus, .ds-btn-alert-loading.focus {
+    outline: none; }
+  .ds-btn-alert-loading:active, .ds-btn-alert-loading.active {
+    outline: none; }
+    .ds-btn-alert-loading:active:hover, .ds-btn-alert-loading:active:focus, .ds-btn-alert-loading:active.focus, .ds-btn-alert-loading.active:hover, .ds-btn-alert-loading.active:focus, .ds-btn-alert-loading.active.focus {
+      outline: none; }
+  .ds-btn-alert-loading .loader {
+    color: #fff;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-success-loading {
+  outline: none;
+  color: #fff;
+  cursor: default;
+  background-color: #00ca72;
+  border-color: #00ca72;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-success-loading:focus, .ds-btn-success-loading.focus {
+    outline: none; }
+  .ds-btn-success-loading:active, .ds-btn-success-loading.active {
+    outline: none; }
+    .ds-btn-success-loading:active:hover, .ds-btn-success-loading:active:focus, .ds-btn-success-loading:active.focus, .ds-btn-success-loading.active:hover, .ds-btn-success-loading.active:focus, .ds-btn-success-loading.active.focus {
+      outline: none; }
+  .ds-btn-success-loading .loader {
+    color: #fff;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-blackish-loading {
+  outline: none;
+  color: #fff;
+  cursor: default;
+  background-color: #333333;
+  border-color: #333333;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-blackish-loading:focus, .ds-btn-blackish-loading.focus {
+    outline: none; }
+  .ds-btn-blackish-loading:active, .ds-btn-blackish-loading.active {
+    outline: none; }
+    .ds-btn-blackish-loading:active:hover, .ds-btn-blackish-loading:active:focus, .ds-btn-blackish-loading:active.focus, .ds-btn-blackish-loading.active:hover, .ds-btn-blackish-loading.active:focus, .ds-btn-blackish-loading.active.focus {
+      outline: none; }
+  .ds-btn-blackish-loading .loader {
+    color: #fff;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-outline-primary-loading {
+  color: #009AFF;
+  cursor: default;
+  background-image: none;
+  background-color: transparent;
+  border-color: #009AFF;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-outline-primary-loading:focus, .ds-btn-outline-primary-loading.focus {
+    outline: none; }
+  .ds-btn-outline-primary-loading:active, .ds-btn-outline-primary-loading.active,
+  .ds-open > .ds-btn-outline-primary-loading.ds-dropdown-toggle {
+    outline: none; }
+    .ds-btn-outline-primary-loading:active:hover, .ds-btn-outline-primary-loading:active:focus, .ds-btn-outline-primary-loading:active.focus, .ds-btn-outline-primary-loading.active:hover, .ds-btn-outline-primary-loading.active:focus, .ds-btn-outline-primary-loading.active.focus,
+    .ds-open > .ds-btn-outline-primary-loading.ds-dropdown-toggle:hover,
+    .ds-open > .ds-btn-outline-primary-loading.ds-dropdown-toggle:focus,
+    .ds-open > .ds-btn-outline-primary-loading.ds-dropdown-toggle.focus {
+      outline: none; }
+  .ds-btn-outline-primary-loading .loader {
+    color: #009AFF;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-outline-secondary-loading {
+  color: transparent;
+  cursor: default;
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-outline-secondary-loading:focus, .ds-btn-outline-secondary-loading.focus {
+    outline: none; }
+  .ds-btn-outline-secondary-loading:active, .ds-btn-outline-secondary-loading.active,
+  .ds-open > .ds-btn-outline-secondary-loading.ds-dropdown-toggle {
+    outline: none; }
+    .ds-btn-outline-secondary-loading:active:hover, .ds-btn-outline-secondary-loading:active:focus, .ds-btn-outline-secondary-loading:active.focus, .ds-btn-outline-secondary-loading.active:hover, .ds-btn-outline-secondary-loading.active:focus, .ds-btn-outline-secondary-loading.active.focus,
+    .ds-open > .ds-btn-outline-secondary-loading.ds-dropdown-toggle:hover,
+    .ds-open > .ds-btn-outline-secondary-loading.ds-dropdown-toggle:focus,
+    .ds-open > .ds-btn-outline-secondary-loading.ds-dropdown-toggle.focus {
+      outline: none; }
+  .ds-btn-outline-secondary-loading .loader {
+    color: transparent;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-outline-shareable-loading {
+  color: #a25ddc;
+  cursor: default;
+  background-image: none;
+  background-color: transparent;
+  border-color: #a25ddc;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-outline-shareable-loading:focus, .ds-btn-outline-shareable-loading.focus {
+    outline: none; }
+  .ds-btn-outline-shareable-loading:active, .ds-btn-outline-shareable-loading.active,
+  .ds-open > .ds-btn-outline-shareable-loading.ds-dropdown-toggle {
+    outline: none; }
+    .ds-btn-outline-shareable-loading:active:hover, .ds-btn-outline-shareable-loading:active:focus, .ds-btn-outline-shareable-loading:active.focus, .ds-btn-outline-shareable-loading.active:hover, .ds-btn-outline-shareable-loading.active:focus, .ds-btn-outline-shareable-loading.active.focus,
+    .ds-open > .ds-btn-outline-shareable-loading.ds-dropdown-toggle:hover,
+    .ds-open > .ds-btn-outline-shareable-loading.ds-dropdown-toggle:focus,
+    .ds-open > .ds-btn-outline-shareable-loading.ds-dropdown-toggle.focus {
+      outline: none; }
+  .ds-btn-outline-shareable-loading .loader {
+    color: #a25ddc;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-outline-private-loading {
+  color: #f6577c;
+  cursor: default;
+  background-image: none;
+  background-color: transparent;
+  border-color: #f6577c;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-outline-private-loading:focus, .ds-btn-outline-private-loading.focus {
+    outline: none; }
+  .ds-btn-outline-private-loading:active, .ds-btn-outline-private-loading.active,
+  .ds-open > .ds-btn-outline-private-loading.ds-dropdown-toggle {
+    outline: none; }
+    .ds-btn-outline-private-loading:active:hover, .ds-btn-outline-private-loading:active:focus, .ds-btn-outline-private-loading:active.focus, .ds-btn-outline-private-loading.active:hover, .ds-btn-outline-private-loading.active:focus, .ds-btn-outline-private-loading.active.focus,
+    .ds-open > .ds-btn-outline-private-loading.ds-dropdown-toggle:hover,
+    .ds-open > .ds-btn-outline-private-loading.ds-dropdown-toggle:focus,
+    .ds-open > .ds-btn-outline-private-loading.ds-dropdown-toggle.focus {
+      outline: none; }
+  .ds-btn-outline-private-loading .loader {
+    color: #f6577c;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-outline-alert-loading {
+  color: #e44258;
+  cursor: default;
+  background-image: none;
+  background-color: transparent;
+  border-color: #e44258;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-outline-alert-loading:focus, .ds-btn-outline-alert-loading.focus {
+    outline: none; }
+  .ds-btn-outline-alert-loading:active, .ds-btn-outline-alert-loading.active,
+  .ds-open > .ds-btn-outline-alert-loading.ds-dropdown-toggle {
+    outline: none; }
+    .ds-btn-outline-alert-loading:active:hover, .ds-btn-outline-alert-loading:active:focus, .ds-btn-outline-alert-loading:active.focus, .ds-btn-outline-alert-loading.active:hover, .ds-btn-outline-alert-loading.active:focus, .ds-btn-outline-alert-loading.active.focus,
+    .ds-open > .ds-btn-outline-alert-loading.ds-dropdown-toggle:hover,
+    .ds-open > .ds-btn-outline-alert-loading.ds-dropdown-toggle:focus,
+    .ds-open > .ds-btn-outline-alert-loading.ds-dropdown-toggle.focus {
+      outline: none; }
+  .ds-btn-outline-alert-loading .loader {
+    color: #e44258;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-outline-success-loading {
+  color: #00ca72;
+  cursor: default;
+  background-image: none;
+  background-color: transparent;
+  border-color: #00ca72;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-outline-success-loading:focus, .ds-btn-outline-success-loading.focus {
+    outline: none; }
+  .ds-btn-outline-success-loading:active, .ds-btn-outline-success-loading.active,
+  .ds-open > .ds-btn-outline-success-loading.ds-dropdown-toggle {
+    outline: none; }
+    .ds-btn-outline-success-loading:active:hover, .ds-btn-outline-success-loading:active:focus, .ds-btn-outline-success-loading:active.focus, .ds-btn-outline-success-loading.active:hover, .ds-btn-outline-success-loading.active:focus, .ds-btn-outline-success-loading.active.focus,
+    .ds-open > .ds-btn-outline-success-loading.ds-dropdown-toggle:hover,
+    .ds-open > .ds-btn-outline-success-loading.ds-dropdown-toggle:focus,
+    .ds-open > .ds-btn-outline-success-loading.ds-dropdown-toggle.focus {
+      outline: none; }
+  .ds-btn-outline-success-loading .loader {
+    color: #00ca72;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+
+.ds-btn-outline-blackish-loading {
+  color: #333333;
+  cursor: default;
+  background-image: none;
+  background-color: transparent;
+  border-color: #333333;
+  padding: 0px 0px;
+  padding-right: 0.24rem;
+  margin-top: 1px; }
+  .ds-btn-outline-blackish-loading:focus, .ds-btn-outline-blackish-loading.focus {
+    outline: none; }
+  .ds-btn-outline-blackish-loading:active, .ds-btn-outline-blackish-loading.active,
+  .ds-open > .ds-btn-outline-blackish-loading.ds-dropdown-toggle {
+    outline: none; }
+    .ds-btn-outline-blackish-loading:active:hover, .ds-btn-outline-blackish-loading:active:focus, .ds-btn-outline-blackish-loading:active.focus, .ds-btn-outline-blackish-loading.active:hover, .ds-btn-outline-blackish-loading.active:focus, .ds-btn-outline-blackish-loading.active.focus,
+    .ds-open > .ds-btn-outline-blackish-loading.ds-dropdown-toggle:hover,
+    .ds-open > .ds-btn-outline-blackish-loading.ds-dropdown-toggle:focus,
+    .ds-open > .ds-btn-outline-blackish-loading.ds-dropdown-toggle.focus {
+      outline: none; }
+  .ds-btn-outline-blackish-loading .loader {
+    color: #333333;
+    content: -9999em;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: spin_accel 0.8s infinite ease;
+    animation: spin_accel 0.8s infinite ease; }
+</style></head>
+  <body>
+    <style>
+  @font-face {
+    font-family: "monday_forms";
+    src: url("https://cdn7.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.eot");
+    src: url("https://cdn7.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.eot?#iefix") format("embedded-opentype"),
+    url("https://cdn7.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.woff") format("woff"),
+    url("https://cdn7.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.ttf") format("truetype"),
+    url("https://cdn7.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.svg#monday_forms") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "monday_forms";
+      src: url("https://cdn7.monday.com/fonts/monday_forms_6b1e87645a03ef1dcd74641095a0a3c5.svg#monday_forms") format("svg");
+    }
+  }
+
+</style>
+
+<div id="forms-component"><div class="form-wrapper-component scroll-style" style="background: rgb(8, 38, 113);"><div class="form-wrapper-empty-header"></div><div class="form-content-component"><div class="form-titles form-content"><div class="form-title">Apply Now</div></div><div id="surveyModeScrollElement" class="form-questions form-content scroll-style"><div class="form-question" tabindex="-1"><div class="form-question-title">Your full name</div><div class="form-question-answer"><div class="form-input-component"><input class="form-input" placeholder="" maxlength="255" value=""></div><div class="form-question-mandatory"><span class="form-question-mandatory-text"><span class="form-question-mandatory-mark">*</span> Required</span></div></div></div><div class="form-question" tabindex="-1"><div class="form-question-title">Your phone number</div><div class="form-question-answer"><div class="phone-form-input-component"><div class="phone-form-input-container form-select-input"><div class="Select countries-dropdown is-searchable Select--single"><div class="Select-control"><div class="Select-multi-value-wrapper" id="react-select-2--value"><div class="Select-placeholder">Country</div><div class="Select-input" style="display: inline-block;"><input aria-activedescendant="react-select-2--value" aria-expanded="false" aria-haspopup="false" aria-owns="" role="combobox" value="" style="box-sizing: content-box; width: 5px;"><div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14px; font-family: Roboto; font-weight: 300; font-style: normal; letter-spacing: normal; text-transform: none;"></div></div></div><span class="Select-arrow-zone"><span class="Select-arrow"></span></span></div></div><input class="form-input" type="tel" placeholder="(212) 123 4567" value=""></div></div><div class="form-question-mandatory form-question-mandatory-phone"><span class="form-question-mandatory-text"><span class="form-question-mandatory-mark">*</span> Required</span></div></div></div><div class="form-question" tabindex="-1"><div class="form-question-title">Your email address</div><div class="form-question-answer"><div class="form-input-component"><input class="form-input" placeholder="" value=""></div><div class="form-question-mandatory"><span class="form-question-mandatory-text"><span class="form-question-mandatory-mark">*</span> Required</span></div></div></div><div class="form-question" tabindex="-1"><div class="form-question-title">What is your current Occupation?</div><div class="form-question-answer"><div class="form-input-component"><input class="form-input" placeholder="" value=""></div></div></div><div class="form-question" tabindex="-1"><div class="form-question-title">What is your highest educational qualification?</div><div class="form-question-answer"><div class="dropdown-form-input-component form-select-input"><div class="Select is-searchable Select--multi"><div class="Select-control"><div class="Select-multi-value-wrapper" id="react-select-3--value"><div class="Select-placeholder">Select your answer</div><div class="Select-input" style="display: inline-block;"><input aria-activedescendant="react-select-3--value" aria-expanded="false" aria-haspopup="false" aria-owns="" role="combobox" value="" style="box-sizing: content-box; width: 5px;"><div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14px; font-family: Roboto; font-weight: 300; font-style: normal; letter-spacing: normal; text-transform: none;"></div></div></div><span class="Select-arrow-zone"><span class="Select-arrow"></span></span></div></div></div></div></div><div class="form-question" tabindex="-1"><div class="form-question-title">What is your highest educational qualification pass out year?</div><div class="form-question-answer"><div class="form-input-component"><input class="form-input" placeholder="" value=""></div></div></div><div class="form-question" tabindex="-1"><div class="form-question-title">Your communication address?</div><div class="form-question-answer"><div class="form-input-component"><textarea class="form-input long-text-form-input" placeholder="" rows="5"></textarea></div></div></div><div class="form-question" tabindex="-1"><div class="form-question-title">Anything you want to ask?</div><div class="form-question-answer"><div class="form-input-component"><input class="form-input" placeholder="" value=""></div></div></div><div class="form-submit-wrapper"><div class="form-submit-btn" tabindex="0">Submit</div></div><a href="https://monday.com/lp/forms/image/?utm_source=virality&amp;utm_campaign=form&amp;utm_banner=powered_by_monday" target="_blank" class="form-powered-by-monday-component-wrapper"><div class="form-powered-by-monday-component"><span>Powered by</span><img class="monday-logo-img" alt="Monday_logo_full" src="./monday_logo_full.png"></div></a></div></div></div></div>
+
+    <script src="./forms-8d4bca3124746ce1600a.js"></script>
+
+
+
+<link rel="stylesheet" media="all" href="./form-1a313f2fc3a2cb35f6df657e8fbb582463e836613ae6230b2ad9fc1b26c6588d.css">
+
+<script>
+  document.cookie="utm_cluster_id=virality_form; domain=monday.com; path=/"
+  document.cookie="utm_campaign=form; utm_cluster_id=virality_form; domain=monday.com; path=/"
+  document.cookie="utm_source=virality; utm_cluster_id=virality_form; domain=monday.com; path=/"
+
+  BigBrain("set_utm_cluster_id", "virality_form");
+
+  BigBrain("track", "page_view", { ...window.formBBData, kind: "form" });
+</script>
+
+  
+
+</body></html>
